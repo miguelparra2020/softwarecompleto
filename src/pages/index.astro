@@ -5,10 +5,10 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
-// import Features2 from '~/components/widgets/Features2.astro';
+import Features2 from '~/components/widgets/Features2.astro';
 // import Steps from '~/components/widgets/Steps.astro';
 // import Content from '~/components/widgets/Content.astro';
-// import LatestPosts from '~/components/blog/LatestPosts.astro';
+import LatestPosts from '~/components/blog/LatestPosts.astro';
 // import FAQs from '~/components/widgets/FAQs.astro';
 // import Stats from '~/components/widgets/Stats.astro';
 // import CallToAction from '~/components/widgets/CallToAction.astro';
@@ -186,75 +186,73 @@ const meta = {
 
   <!-- Features2 Widget ************** -->
 
-  <!-- <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    highlight="Components"
+  <Features2
+    title="La magía de los sistemas Auto organizados"
+    subtitle="Descripción del Curso"
+    highlight="Curso"
     items={[
       {
-        title: 'Headers',
+        title: 'Contenido 1',
         description:
           'In general, Headers contain information that makes it easier for visitors to interact with the website.',
         icon: 'flat-color-icons:template',
       },
       {
-        title: 'Heros',
+        title: 'Contenido 2',
         description:
           'If you want your website to get more than its fair share of visitors, the Hero section needs to be stellar.',
         icon: 'flat-color-icons:gallery',
       },
       {
-        title: 'Features',
+        title: 'Contenido 3',
         description:
           'Display your product in action and how the Features actually create a solution for your target customer.',
         icon: 'flat-color-icons:todo-list',
       },
       {
-        title: 'Content',
+        title: 'Contenido 4',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
         icon: 'flat-color-icons:document',
       },
       {
-        title: 'Call-to-Action',
+        title: 'Contenido 5',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
         icon: 'flat-color-icons:advertising',
       },
       {
-        title: 'Pricing',
+        title: 'Contenido 6',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
         icon: 'flat-color-icons:currency-exchange',
       },
       {
-        title: 'Testimonial',
+        title: 'Contenido 7',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
         icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: 'Contact',
+        title: 'Contenido 8',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
         icon: 'flat-color-icons:business-contact',
       },
       {
-        title: 'Footers',
+        title: 'Contenido 9',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
         icon: 'icon-park:page-template',
       },
     ]}
-  /> -->
+  />
 
   <!-- HighlightedPosts Widget ******* -->
 
-  <!-- <LatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-			Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-			Astro is a very interesting technology. Thanks.
+  <LatestPosts
+    title="Publiaciones constantes, de nuestro pensamiento."
+    information={`
 		`}
     postIds={[
       'get-started-website-with-astro-tailwind-css.md',
@@ -262,7 +260,7 @@ const meta = {
       'useful-resources-to-create-websites.md',
       'astrowind-template-in-depth.md',
     ]}
-  /> -->
+  />
 
   <!-- FAQs Widget ******************* -->
 
