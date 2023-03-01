@@ -1,127 +1,175 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
     {
-      text: 'Landing',
+      text: 'Socio-Politicos',
       links: [
         {
-          text: 'Sass',
-          href: getPermalink('/landing/saas'),
+          text: '👉 CIBERNÉTICA de las Elecciones y del Desastre Nacional.',
+          // href: getPermalink('/landing/saas'),
+          href:'#'
         },
         {
-          text: 'Startup',
-          href: getPermalink('/landing/startup'),
+          text: '👉 Convocatoria a la Intelectualidad Colombiana',
+          href:'#'
         },
         {
-          text: 'Mobile App',
-          href: getPermalink('/landing/mobile-app'),
+          text: '👉 Los Planos de la Paz',
+          href:'#'
+        },
+        {
+          text: '👉 Decálogo de la Paz',
+          href:'#'
+        },
+        {
+          text: '👉 La Realización Personal o la Felicidad en un Nuevo Contrato Social',
+          href:'#'
+        },
+        {
+          text: '👉 Plan de Salvación Nacional',
+          href:'#'
+        },
+        {
+          text: '👉 Ideología del Libertador para la Segunda Independencia de América latina',
+          href:'#'
         },
       ],
     },
     {
-      text: 'Pages',
+      text: 'Socio-Económicos',
       links: [
         {
-          text: 'Features',
+          text: '👉 Revolución Científico Tecnológica para el Desarrollo Nacional',
           href: '#',
         },
         {
-          text: 'Pricing',
+          text: '👉 Propuesta de Reforma a la Educación del Niño en su más Tierna Infancia (Hasta los Siete Años)',
           href: '#',
         },
         {
-          text: 'About us',
+          text: '👉 Propuesta de Reforma Académica',
+          href: '#',
+        }
+      ],
+    },
+    {
+      text: 'Ciencia y Sociedad',
+      links: [
+        {
+          text: '👉 La Magia de los Sistemas Autoorganizados',
           href: '#',
         },
         {
-          text: 'Contact',
+          text: '👉 Como Ganar El Premio Nobel',
+          href: '#',
+        }
+      ],
+    },
+    {
+      text: 'Educación',
+      links: [
+        {
+          text: '👉 La reivindicación de los derechos de la niñez o el regreso al paraíso terrenal',
           href: '#',
         },
         {
-          text: 'Terms',
-          href: getPermalink('/terms'),
+          text: '👉 Psicoanálisis y Pedagogía Formativa',
+          href: '#',
         },
         {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
+          text: '👉 La Familiaridad como Fundamento de la Identidad Nacional',
+          href: '#',
+        },
+        {
+          text: '👉 Propuesta de Reforma a la Educación del Niño en su más Tierna Infancia (Hasta los Siete Años)',
+          href: '#',
+        }
+      ],
+    },
+    {
+      text: 'Antivirales',
+      links: [
+        {
+          text: '👉 Cepa Viral inducida por Luz UV-B y rayos X: La peor amenaza para la humanidad.',
+          href: '#',
+        },
+        {
+          text: '👉 Lauril Sulfato Sódico Éter',
+          href: '#',
+        },
+        {
+          text: '👉 Nanovacuna Antiviral Bioenergética',
+          href: '#',
+        },
+        {
+          text: '👉 Replica a la Falsación de la Silla Vacía a la Nanovacuna Antiviral Bioenergética',
+          href: '#',
+        },
+        {
+          text: '👉 Sepa cómo Tratar las Pandemias.',
+          href: '#',
+        },
+        {
+          text: '👉 Privacy policy',
+          href: '#',
         },
       ],
     },
     {
-      text: 'Widgets',
+      text: '🎙️Podcast',
       href: '#',
     },
     {
       text: 'Blog',
-      href: getBlogPermalink(),
+      href: '#',
     },
-  ],
-  actions: [
-    { type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }
+    {
+      text: 'Curso',
+      href: '#',
+    },
   ],
 };
   
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Podcast:',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Publicados', href: '#' }
       ],
     },
     {
-      title: 'Platform',
+      title: 'Blog:',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        { text: 'Publicaciones', href: '#' },
       ],
     },
     {
-      title: 'Support',
+      title: 'Curso:',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'Temas', href: '#' },
       ],
     },
     {
-      title: 'Company',
+      title: 'Contactar',
       links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
+        { text: 'PQR', href: '#' },
+        { text: 'Contactar al autor', href: '#' }
       ],
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    { text: 'Politica de privacidad', href: getPermalink('/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: '#' },
   ],
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
-    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
+    Hecho por <a class="text-blue-600 hover:underline dark:text-gray-200" href="#"> Software Hepl Center</a> · Todos los derechos reservados.
   `,
 };
