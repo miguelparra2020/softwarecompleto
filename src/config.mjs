@@ -1,5 +1,6 @@
 import defaultImage from './assets/images/default.png';
 
+
 const CONFIG = {
   name: 'La magia de los sistemas autoorganizados',
 
