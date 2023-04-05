@@ -1,20 +1,20 @@
 import defaultImage from './assets/images/default.png';
 
 const CONFIG = {
-  name: 'Los planos de la patria anhelada',
+  name: 'La magia de los sistemas autoorganizados',
 
   origin: 'https://astrowind.vercel.app',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'Los planos de la patria anhelada',
+  title: 'La magia de los sistemas autoorganizados',
   description:
-    '🚀 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.',
+    '🚀 La magia de los sistemas autoorganizados, aplicada en todos los entornos de la vida',
   defaultImage: defaultImage,
 
-  defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  defaultTheme: 'light', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
 
-  language: 'en',
+  language: 'es',
   textDirection: 'ltr',
 
   dateFormatter: new Intl.DateTimeFormat('en', {
@@ -29,7 +29,7 @@ const CONFIG = {
 
   blog: {
     disabled: false,
-    postsPerPage: 4,
+    postsPerPage: 1000,
 
     post: {
       permalink: '/%slug%', // Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
