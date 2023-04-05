@@ -44,7 +44,7 @@ const CONFIG = {
     },
 
     category: {
-      pathname: 'category', // Category main path /category/some-category
+      pathname: 'category', // Category main path /category/some-category ok
       noindex: true,
       disabled: false,
     },
