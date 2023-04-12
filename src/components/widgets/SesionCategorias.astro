@@ -5,6 +5,7 @@ interface Item {
   title: string;
   description: string;
   icon?: string;
+  link: string;
 }
 
 export interface Props {
@@ -50,10 +51,11 @@ const {
       {
         items.map((subitems) => (
           <div class="space-y-8 sm:px-8">
-            {subitems.map(({ title, description, icon }) => (
+            {subitems.map(({ title, description, icon,link }) => (
+              <a href={link}>
               <div class="flex flex-row max-w-md">
                 <div class="mb-4 mr-4">
-                  <div class="flex items-center justify-center w-12 h-12 rounded-full bg-green-600 dark:bg-green-700">
+                  <div class="flex items-center justify-center w-12 h-12 rounded-full bg-green-600 dark:bg-green-700 shadow-lg shadow-gray-500/50 hover:shadow-orange-300 ">
                     {icon && <Icon name={icon} class="w-6 h-6 text-white icon-light" />}
                   </div>
                 </div>
@@ -62,6 +64,7 @@ const {
                   <p class="text-muted dark:text-slate-400" set:html={description} />
                 </div>
               </div>
+            </a>
             ))}
           </div>
         ))

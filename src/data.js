@@ -34,6 +34,14 @@ export const headerData = {
           text: '👉 Ideología del Libertador para la Segunda Independencia de América latina',
           href:'#'
         },
+        {
+          text: '👉 Temática libre',
+          href:'#'
+        },
+        {
+          text: '👉 Libro: "El poder y el Antipoder"',
+          href:'#'
+        },
       ],
     },
     {
@@ -50,7 +58,15 @@ export const headerData = {
         {
           text: '👉 Propuesta de Reforma Académica',
           href: '#',
-        }
+        },
+        {
+          text: '👉 Temática libre',
+          href:'#'
+        },
+        {
+          text: '👉 Libro: "El poder y el Antipoder"',
+          href:'#'
+        },
       ],
     },
     {
@@ -63,7 +79,15 @@ export const headerData = {
         {
           text: '👉 Como Ganar El Premio Nobel',
           href: '#',
-        }
+        },
+        {
+          text: '👉 Temática libre',
+          href:'#'
+        },
+        {
+          text: '👉 Libro: "El poder y el Antipoder"',
+          href:'#'
+        },
       ],
     },
     {
@@ -84,7 +108,15 @@ export const headerData = {
         {
           text: '👉 Propuesta de Reforma a la Educación del Niño en su más Tierna Infancia (Hasta los Siete Años)',
           href: '#',
-        }
+        },
+        {
+          text: '👉 Temática libre',
+          href:'#'
+        },
+        {
+          text: '👉 Libro: "El poder y el Antipoder"',
+          href:'#'
+        },
       ],
     },
     {
@@ -111,18 +143,18 @@ export const headerData = {
           href: '#',
         },
         {
-          text: '👉 Privacy policy',
-          href: '#',
+          text: '👉 Temática libre',
+          href:'#'
+        },
+        {
+          text: '👉 Libro: "El poder y el Antipoder"',
+          href:'#'
         },
       ],
     },
     {
       text: '🎙️Podcast',
-      href: '#',
-    },
-    {
-      text: 'Blog',
-      href: '#',
+      href: getPermalink('/blog'),
     },
     {
       text: 'Curso',
@@ -134,15 +166,15 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Podcast:',
+      title: 'Libro:',
       links: [
-        { text: 'Publicados', href: '#' }
+        { text: 'El poder y el antipoder', href: getPermalink('/blog') }
       ],
     },
     {
-      title: 'Blog:',
+      title: 'Podcast/Blog:',
       links: [
-        { text: 'Publicaciones', href: '#' },
+        { text: 'Publicaciones', href: getPermalink('/blog') },
       ],
     },
     {

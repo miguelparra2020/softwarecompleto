@@ -2,16 +2,11 @@
 import { SITE } from '~/config.mjs';
 import Layout from '~/layouts/PageLayout.astro';
 
-import Hero from '~/components/widgets/Hero.astro';
+import SesionInicial from '~/components/widgets/SesionInicial.astro';
 import Filosofia from '~/components/widgets/Filosofia.astro';
 import SesionCategorias from '~/components/widgets/SesionCategorias.astro';
 import Curso from '~/components/widgets/Curso.astro';
-// import Steps from '~/components/widgets/Steps.astro';
-// import Content from '~/components/widgets/Content.astro';
 import LatestPosts from '~/components/blog/LatestPosts.astro';
-// import FAQs from '~/components/widgets/FAQs.astro';
-// import Stats from '~/components/widgets/Stats.astro';
-// import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const meta = {
   title: SITE.title,
@@ -21,23 +16,26 @@ const meta = {
 ---
 
 <Layout {meta}>
-  <!-- Hero Widget ******************* -->
+  <!-- Sesión Inicial ******************* -->
 
-  <Hero
+  <SesionInicial
     callToAction={{ text: 'Get template', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:download' }}
     callToAction2={{ text: 'Learn more', href: '#features' }}
   >
+    <!-- Titulo de Bienvenida ******************* -->
     <Fragment slot="title">
       BIENVENIDOS A LA MAGIA DE LOS SISTEMAS AUTOORGANIZADOS
     </Fragment>
-  </Hero>
+    <!-- Titulo de Bienvenida ******************* -->
+  </SesionInicial>
+
+  <!-- Sesión Inicial ******************* -->
 
   <!-- Filosofía de la página ******************* -->
-
   <Filosofia />
-
   <!-- Filosofía de la página *************** -->
 
+  <!-- Sesión de categorias ******************* -->
   <SesionCategorias
     title="Categorías"
     items={[
@@ -47,18 +45,21 @@ const meta = {
           description:
             'El desarrollo en proyectos destinados a transmitir e incrementar el conocimiento, priorización al modelo de paz, realización personal y felicidad como nuevo contrato social ...Ver más ',
           icon: 'tabler:brand-tailwind',
+          link:'/blog',
         },
         {
           title: 'Socio-Económicos',
           description:
             'Hay un imperativo ético y otro económico, El imperativo económico es la capacidad del adolescente de ganarse la vida a la edad de 18 años, desempeñando un trabajo útil y bien remunerado...ver más ',
           icon: 'tabler:components',
+          link:'/blog',
         },
         {
           title: 'Ciencia y Sociedad',
           description:
             'La magia como la autoorganización, nos sorprende en todo momento con cosas inesperadas. Aquella mediante métodos ocultos, y ésta mediante la sincronía que da origen a un nuevo sistema, con su respectivos orden, estructura y función...ver más ',
           icon: 'tabler:rocket',
+          link:'/blog',
         },
       ],
       [
@@ -67,17 +68,28 @@ const meta = {
           description:
             'La reivindicación de los derechos de la niñez o el regreso al paraíso terrenal; La Familiaridad como Fundamento de la Identidad Nacional... Ver más',
           icon: 'tabler:list-check',
+          link:'/tag/astro',
         },
         {
           title: 'Antivirales',
           description:
             '10 cosas que debe saber sobre como tratar las pandemias “La enfermedad no ataca a quien no le teme»; Nanovacuna Antiviral Bioenergética La Inmunidad obtenida de la Sinergia de las Medicinas Ancestrales Antipandémicas... ver más',
           icon: 'tabler:arrows-right-left',
+          link:'/tag/astro',
+        },
+        {
+          title: 'Temática libre',
+          description:
+            'Encuentra más publicaciones en diversidad de temas... ver más',
+          icon: 'tabler:arrows-right',
+          link:'/tag/astro',
         }
       ],
     ]}
   />
+<!-- Sesión de categorias ******************* -->
 
+<!-- Sesión del Curso ******************* -->
   <Curso
     title="La magía de los sistemas Auto organizados"
     subtitle="Descripción del Curso"
@@ -153,78 +165,4 @@ const meta = {
       'astrowind-template-in-depth.md',
     ]}
   />
-
-  <!-- FAQs Widget ******************* -->
-
-  <!-- <FAQs
-    title="Frequently Asked Questions"
-    subtitle="Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar."
-    highlight="FAQs"
-    items={[
-      [
-        {
-          question: 'What do I need to start?',
-          answer:
-            'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
-        },
-        {
-          question: 'How to install the Astro + Tailwind CSS template?',
-          answer:
-            "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.",
-        },
-        {
-          question: "What's something that you don't understand?",
-          answer:
-            "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
-        },
-      ],
-      [
-        {
-          question: "What's an example of when you changed your mind?",
-          answer:
-            "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
-        },
-        {
-          question: 'What is something that you would like to try again?',
-          answer:
-            "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
-        },
-        {
-          question: 'If you could only ask one question to each person you meet, what would that question be?',
-          answer:
-            "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
-        },
-      ],
-    ]}
-  /> -->
-
-  <!-- Stats Widget ****************** -->
-
-  <!-- <Stats
-    items={[
-      { name: 'Downloads', value: '132K' },
-      { name: 'Stars', value: '24.8K' },
-      { name: 'Forks', value: '10.3K' },
-      { name: 'Users', value: '48.4K' },
-    ]}
-  /> -->
-
-  <!-- CallToAction Widget *********** -->
-
-  <!-- <CallToAction
-    callToAction={{
-      text: 'Get template',
-      href: 'https://github.com/onwidget/astrowind',
-      icon: 'tabler:download',
-    }}
-  >
-    <Fragment slot="title">
-      Astro + <br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
-    </Fragment>
-
-    <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
-    </Fragment>
-  </CallToAction> -->
 </Layout>

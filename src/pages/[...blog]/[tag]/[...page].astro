@@ -34,7 +34,7 @@ const { page, tag } = Astro.props;
 
 const currentPage = page.currentPage ?? 1;
 const meta = {
-  title: `Posts by tag '${tag}'${currentPage > 1 ? ` — Page ${currentPage} ` : ''}`,
+  title: `Publicación por categoría: '${tag}'${currentPage > 1 ? ` — Página ${currentPage} ` : ''}`,
   description: SITE.description,
   noindex: BLOG?.tag?.noindex,
 };
@@ -42,7 +42,7 @@ const meta = {
 
 <Layout meta={meta}>
   <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-3xl">
-    <Headline>Tag: {tag}</Headline>
+    <Headline>Categorías: {tag}</Headline>
     <BlogList posts={page.data} />
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
   </section>
