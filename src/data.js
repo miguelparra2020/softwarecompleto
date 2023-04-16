@@ -16,7 +16,7 @@ export const headerData = {
         // },
         {
           text: '👉 Los Planos de la Paz',
-          href:'#'
+          href:'/losplanosdelapaz'
         },
         {
           text: '👉 Decálogo de la Paz',
