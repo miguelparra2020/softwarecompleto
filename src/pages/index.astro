@@ -1,22 +1,38 @@
 ---
-import { SITE } from '~/config.mjs';
+import { SITE,  } from '~/config.mjs';
 import Layout from '~/layouts/PageLayout.astro';
 
 import SesionInicial from '~/components/widgets/SesionInicial.astro';
 import Filosofia from '~/components/widgets/Filosofia.astro';
 import SesionCategorias from '~/components/widgets/SesionCategorias.astro';
-import Curso from '~/components/widgets/Curso.astro';
+// Curso:
+// import Curso from '~/components/widgets/Curso.astro';
 import LatestPosts from '~/components/blog/LatestPosts.astro';
+// import BlogList from '~/components/blog/List.astro';
+// import { fetchPosts } from '~/utils/blog';
+// import { BLOG_BASE } from '~/utils/permalinks';
 
+// export async function getStaticPaths({ paginate }) {
+//   if (BLOG?.disabled || BLOG?.list?.disabled) return [];
+//   return paginate(await fetchPosts(), {
+//     params: { blog: BLOG_BASE || undefined },
+//     pageSize: BLOG.postsPerPage,
+//   });
+// }
 
+// const { page } = Astro.props;
 const meta = {
   title: SITE.title,
   description: SITE.description,
   dontUseTitleTemplate: true,
 };
+
+
 ---
 
 <Layout {meta}>
+  <!-- El menú y los links de menú están en el archivo data.js este archivo está por fuera del src -->
+
   <!-- Sesión Inicial ******************* -->
 
   <SesionInicial
@@ -48,50 +64,50 @@ const meta = {
           icon: 'tabler:brand-tailwind',
           link:'/blog',
         },
-        {
-          title: 'Socio-Económicos',
-          description:
-            'Hay un imperativo ético y otro económico, El imperativo económico es la capacidad del adolescente de ganarse la vida a la edad de 18 años, desempeñando un trabajo útil y bien remunerado...ver más ',
-          icon: 'tabler:components',
-          link:'/blog',
-        },
-        {
-          title: 'Ciencia y Sociedad',
-          description:
-            'La magia como la autoorganización, nos sorprende en todo momento con cosas inesperadas. Aquella mediante métodos ocultos, y ésta mediante la sincronía que da origen a un nuevo sistema, con su respectivos orden, estructura y función...ver más ',
-          icon: 'tabler:rocket',
-          link:'/blog',
-        },
+      //   {
+      //     title: 'Socio-Económicos',
+      //     description:
+      //       'Hay un imperativo ético y otro económico, El imperativo económico es la capacidad del adolescente de ganarse la vida a la edad de 18 años, desempeñando un trabajo útil y bien remunerado...ver más ',
+      //     icon: 'tabler:components',
+      //     link:'/blog',
+      //   },
+      //   {
+      //     title: 'Ciencia y Sociedad',
+      //     description:
+      //       'La magia como la autoorganización, nos sorprende en todo momento con cosas inesperadas. Aquella mediante métodos ocultos, y ésta mediante la sincronía que da origen a un nuevo sistema, con su respectivos orden, estructura y función...ver más ',
+      //     icon: 'tabler:rocket',
+      //     link:'/blog',
+      //   },
       ],
-      [
-        {
-          title: 'Didáctica: Formación Y Educación',
-          description:
-            'La reivindicación de los derechos de la niñez o el regreso al paraíso terrenal; La Familiaridad como Fundamento de la Identidad Nacional... Ver más',
-          icon: 'tabler:list-check',
-          link:'/tag/astro',
-        },
-        {
-          title: 'Antivirales',
-          description:
-            '10 cosas que debe saber sobre como tratar las pandemias “La enfermedad no ataca a quien no le teme»; Nanovacuna Antiviral Bioenergética La Inmunidad obtenida de la Sinergia de las Medicinas Ancestrales Antipandémicas... ver más',
-          icon: 'tabler:arrows-right-left',
-          link:'/tag/astro',
-        },
-        {
-          title: 'Temática libre',
-          description:
-            'Encuentra más publicaciones en diversidad de temas... ver más',
-          icon: 'tabler:arrows-right',
-          link:'/tag/astro',
-        }
-      ],
+      // [
+      //   {
+      //     title: 'Didáctica: Formación Y Educación',
+      //     description:
+      //       'La reivindicación de los derechos de la niñez o el regreso al paraíso terrenal; La Familiaridad como Fundamento de la Identidad Nacional... Ver más',
+      //     icon: 'tabler:list-check',
+      //     link:'/tag/astro',
+      //   },
+      //   {
+      //     title: 'Antivirales',
+      //     description:
+      //       '10 cosas que debe saber sobre como tratar las pandemias “La enfermedad no ataca a quien no le teme»; Nanovacuna Antiviral Bioenergética La Inmunidad obtenida de la Sinergia de las Medicinas Ancestrales Antipandémicas... ver más',
+      //     icon: 'tabler:arrows-right-left',
+      //     link:'/tag/astro',
+      //   },
+      //   {
+      //     title: 'Temática libre',
+      //     description:
+      //       'Encuentra más publicaciones en diversidad de temas... ver más',
+      //     icon: 'tabler:arrows-right',
+      //     link:'/tag/astro',
+      //   }
+      // ],
     ]}
   />
 <!-- Sesión de categorias ******************* -->
 
 <!-- Sesión del Curso ******************* -->
-  <Curso
+  <!-- <Curso
     title="La magía de los sistemas Auto organizados"
     subtitle="Descripción del Curso"
     highlight="Curso"
@@ -151,19 +167,22 @@ const meta = {
         icon: 'icon-park:page-template',
       },
     ]}
-  />
+  /> -->
 
   <!-- HighlightedPosts Widget ******* -->
+
+  <!-- <BlogList posts={page.data} /> -->
 
   <LatestPosts
     title="Publiaciones constantes, de nuestro pensamiento."
     information={`
 		`}
     postIds={[
+      'astrowind-template-in-depth.md',
       'get-started-website-with-astro-tailwind-css.md',
       'how-to-customize-astrowind-to-your-brand.md',
       'useful-resources-to-create-websites.md',
-      'astrowind-template-in-depth.md',
+      
     ]}
   />
 </Layout>

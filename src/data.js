@@ -5,15 +5,15 @@ export const headerData = {
     {
       text: 'Socio-Politicos',
       links: [
-        {
-          text: '👉 CIBERNÉTICA de las Elecciones y del Desastre Nacional.',
-          // href: getPermalink('/landing/saas'),
-          href:'#'
-        },
-        {
-          text: '👉 Convocatoria a la Intelectualidad Colombiana',
-          href:'#'
-        },
+        // {
+        //   text: '👉 CIBERNÉTICA de las Elecciones y del Desastre Nacional.',
+        //   // href: getPermalink('/landing/saas'),
+        //   href:'#'
+        // },
+        // {
+        //   text: '👉 Convocatoria a la Intelectualidad Colombiana',
+        //   href:'#'
+        // },
         {
           text: '👉 Los Planos de la Paz',
           href:'#'
@@ -22,144 +22,144 @@ export const headerData = {
           text: '👉 Decálogo de la Paz',
           href:'#'
         },
-        {
-          text: '👉 La Realización Personal o la Felicidad en un Nuevo Contrato Social',
-          href:'#'
-        },
-        {
-          text: '👉 Plan de Salvación Nacional',
-          href:'#'
-        },
-        {
-          text: '👉 Ideología del Libertador para la Segunda Independencia de América latina',
-          href:'#'
-        },
-        {
-          text: '👉 Temática libre',
-          href:'#'
-        },
-        {
-          text: '👉 Libro: "El poder y el Antipoder"',
-          href:'#'
-        },
+        // {
+        //   text: '👉 La Realización Personal o la Felicidad en un Nuevo Contrato Social',
+        //   href:'#'
+        // },
+        // {
+        //   text: '👉 Plan de Salvación Nacional',
+        //   href:'#'
+        // },
+        // {
+        //   text: '👉 Ideología del Libertador para la Segunda Independencia de América latina',
+        //   href:'#'
+        // },
+        // {
+        //   text: '👉 Temática libre',
+        //   href:'#'
+        // },
+        // {
+        //   text: '👉 Libro: "El poder y el Antipoder"',
+        //   href:'#'
+        // },
       ],
     },
-    {
-      text: 'Socio-Económicos',
-      links: [
-        {
-          text: '👉 Revolución Científico Tecnológica para el Desarrollo Nacional',
-          href: '#',
-        },
-        {
-          text: '👉 Propuesta de Reforma a la Educación del Niño en su más Tierna Infancia (Hasta los Siete Años)',
-          href: '#',
-        },
-        {
-          text: '👉 Propuesta de Reforma Académica',
-          href: '#',
-        },
-        {
-          text: '👉 Temática libre',
-          href:'#'
-        },
-        {
-          text: '👉 Libro: "El poder y el Antipoder"',
-          href:'#'
-        },
-      ],
-    },
-    {
-      text: 'Ciencia y Sociedad',
-      links: [
-        {
-          text: '👉 La Magia de los Sistemas Autoorganizados',
-          href: '#',
-        },
-        {
-          text: '👉 Como Ganar El Premio Nobel',
-          href: '#',
-        },
-        {
-          text: '👉 Temática libre',
-          href:'#'
-        },
-        {
-          text: '👉 Libro: "El poder y el Antipoder"',
-          href:'#'
-        },
-      ],
-    },
-    {
-      text: 'Educación',
-      links: [
-        {
-          text: '👉 La reivindicación de los derechos de la niñez o el regreso al paraíso terrenal',
-          href: '#',
-        },
-        {
-          text: '👉 Psicoanálisis y Pedagogía Formativa',
-          href: '#',
-        },
-        {
-          text: '👉 La Familiaridad como Fundamento de la Identidad Nacional',
-          href: '#',
-        },
-        {
-          text: '👉 Propuesta de Reforma a la Educación del Niño en su más Tierna Infancia (Hasta los Siete Años)',
-          href: '#',
-        },
-        {
-          text: '👉 Temática libre',
-          href:'#'
-        },
-        {
-          text: '👉 Libro: "El poder y el Antipoder"',
-          href:'#'
-        },
-      ],
-    },
-    {
-      text: 'Antivirales',
-      links: [
-        {
-          text: '👉 Cepa Viral inducida por Luz UV-B y rayos X: La peor amenaza para la humanidad.',
-          href: '#',
-        },
-        {
-          text: '👉 Lauril Sulfato Sódico Éter',
-          href: '#',
-        },
-        {
-          text: '👉 Nanovacuna Antiviral Bioenergética',
-          href: '#',
-        },
-        {
-          text: '👉 Replica a la Falsación de la Silla Vacía a la Nanovacuna Antiviral Bioenergética',
-          href: '#',
-        },
-        {
-          text: '👉 Sepa cómo Tratar las Pandemias.',
-          href: '#',
-        },
-        {
-          text: '👉 Temática libre',
-          href:'#'
-        },
-        {
-          text: '👉 Libro: "El poder y el Antipoder"',
-          href:'#'
-        },
-      ],
-    },
+    // {
+    //   text: 'Socio-Económicos',
+    //   links: [
+    //     {
+    //       text: '👉 Revolución Científico Tecnológica para el Desarrollo Nacional',
+    //       href: '#',
+    //     },
+    //     {
+    //       text: '👉 Propuesta de Reforma a la Educación del Niño en su más Tierna Infancia (Hasta los Siete Años)',
+    //       href: '#',
+    //     },
+    //     {
+    //       text: '👉 Propuesta de Reforma Académica',
+    //       href: '#',
+    //     },
+    //     {
+    //       text: '👉 Temática libre',
+    //       href:'#'
+    //     },
+    //     {
+    //       text: '👉 Libro: "El poder y el Antipoder"',
+    //       href:'#'
+    //     },
+    //   ],
+    // },
+    // {
+    //   text: 'Ciencia y Sociedad',
+    //   links: [
+    //     {
+    //       text: '👉 La Magia de los Sistemas Autoorganizados',
+    //       href: '#',
+    //     },
+    //     {
+    //       text: '👉 Como Ganar El Premio Nobel',
+    //       href: '#',
+    //     },
+    //     {
+    //       text: '👉 Temática libre',
+    //       href:'#'
+    //     },
+    //     {
+    //       text: '👉 Libro: "El poder y el Antipoder"',
+    //       href:'#'
+    //     },
+    //   ],
+    // },
+    // {
+    //   text: 'Educación',
+    //   links: [
+    //     {
+    //       text: '👉 La reivindicación de los derechos de la niñez o el regreso al paraíso terrenal',
+    //       href: '#',
+    //     },
+    //     {
+    //       text: '👉 Psicoanálisis y Pedagogía Formativa',
+    //       href: '#',
+    //     },
+    //     {
+    //       text: '👉 La Familiaridad como Fundamento de la Identidad Nacional',
+    //       href: '#',
+    //     },
+    //     {
+    //       text: '👉 Propuesta de Reforma a la Educación del Niño en su más Tierna Infancia (Hasta los Siete Años)',
+    //       href: '#',
+    //     },
+    //     {
+    //       text: '👉 Temática libre',
+    //       href:'#'
+    //     },
+    //     {
+    //       text: '👉 Libro: "El poder y el Antipoder"',
+    //       href:'#'
+    //     },
+    //   ],
+    // },
+    // {
+    //   text: 'Antivirales',
+    //   links: [
+    //     {
+    //       text: '👉 Cepa Viral inducida por Luz UV-B y rayos X: La peor amenaza para la humanidad.',
+    //       href: '#',
+    //     },
+    //     {
+    //       text: '👉 Lauril Sulfato Sódico Éter',
+    //       href: '#',
+    //     },
+    //     {
+    //       text: '👉 Nanovacuna Antiviral Bioenergética',
+    //       href: '#',
+    //     },
+    //     {
+    //       text: '👉 Replica a la Falsación de la Silla Vacía a la Nanovacuna Antiviral Bioenergética',
+    //       href: '#',
+    //     },
+    //     {
+    //       text: '👉 Sepa cómo Tratar las Pandemias.',
+    //       href: '#',
+    //     },
+    //     {
+    //       text: '👉 Temática libre',
+    //       href:'#'
+    //     },
+    //     {
+    //       text: '👉 Libro: "El poder y el Antipoder"',
+    //       href:'#'
+    //     },
+    //   ],
+    // },
     {
       text: '🎙️Podcast',
       href: getPermalink('/blog'),
     },
-    {
-      text: 'Curso',
-      href: '#',
-    },
+    // {
+    //   text: 'Curso',
+    //   href: '#',
+    // },
   ],
 };
   
