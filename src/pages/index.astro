@@ -1,7 +1,6 @@
 ---
 import { SITE,  } from '~/config.mjs';
 import Layout from '~/layouts/PageLayout.astro';
-
 import SesionInicial from '~/components/widgets/SesionInicial.astro';
 import Filosofia from '~/components/widgets/Filosofia.astro';
 import SesionCategorias from '~/components/widgets/SesionCategorias.astro';
@@ -29,6 +28,20 @@ const meta = {
 
 
 ---
+<style>
+  .bienvenidos {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to bottom right,var(--tw-gradient-stops));
+    --tw-gradient-from: #2048ca;
+    --tw-gradient-to: rgb(99 102 241 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: rgb(217 70 239 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), #d1437c, var(--tw-gradient-to);
+    --tw-gradient-to: #861e76;
+}
+</style>
 
 <Layout {meta}>
   <!-- El menú y los links de menú están en el archivo data.js este archivo está por fuera del src -->
@@ -41,7 +54,8 @@ const meta = {
   >
     <!-- Titulo de Bienvenida ******************* -->
     <Fragment slot="title">
-      BIENVENIDOS A LA MAGIA DE LOS SISTEMAS AUTOORGANIZADOS
+      
+    <span class="bienvenidos bg-gradient-to-r from-indigo-500 ...">BIENVENIDOS</span> A LA MAGIA DE LOS SISTEMAS AUTOORGANIZADOS
     </Fragment>
     <!-- Titulo de Bienvenida ******************* -->
   </SesionInicial>
