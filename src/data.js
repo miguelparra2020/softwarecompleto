@@ -20,7 +20,7 @@ export const headerData = {
         },
         {
           text: '👉 Decálogo de la Paz',
-          href:'#'
+          href:'/decalogodelapaz'
         },
         // {
         //   text: '👉 La Realización Personal o la Felicidad en un Nuevo Contrato Social',
