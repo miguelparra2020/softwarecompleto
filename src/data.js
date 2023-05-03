@@ -165,12 +165,12 @@ export const headerData = {
   
 export const footerData = {
   links: [
-    {
-      title: 'Libro:',
-      links: [
-        { text: 'El poder y el antipoder', href: getPermalink('/blog') }
-      ],
-    },
+    // {
+    //   title: 'Libro:',
+    //   links: [
+    //     { text: 'El poder y el antipoder', href: getPermalink('/blog') }
+    //   ],
+    // },
     {
       title: 'Podcast/Blog:',
       links: [
