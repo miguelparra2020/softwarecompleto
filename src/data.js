@@ -3,7 +3,7 @@ import { getPermalink } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Socio-Politicos',
+      text: 'Socio-Políticos',
       links: [
         // {
         //   text: '👉 CIBERNÉTICA de las Elecciones y del Desastre Nacional.',
@@ -192,7 +192,7 @@ export const footerData = {
     // },
   ],
   secondaryLinks: [
-    { text: 'Politica de privacidad', href: getPermalink('/privacy') },
+    { text: 'Política de privacidad', href: getPermalink('/privacy') },
   ],
   socialLinks: [
     // { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
