@@ -177,6 +177,12 @@ export const footerData = {
         { text: 'Publicaciones', href: getPermalink('/blog') },
       ],
     },
+    {
+      title: 'Libro:',
+      links: [
+        { text: 'Libro', href: '/libro' },
+      ],
+    },
     // {
     //   title: 'Curso:',
     //   links: [
