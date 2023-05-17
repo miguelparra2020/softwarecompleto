@@ -178,9 +178,9 @@ export const footerData = {
       ],
     },
     {
-      title: 'Libro:',
+      title: 'Libros:',
       links: [
-        { text: 'Libro', href: '/libro' },
+        { text: 'Libros', href: '/libro' },
       ],
     },
     // {

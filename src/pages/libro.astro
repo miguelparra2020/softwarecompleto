@@ -1,6 +1,5 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import { Picture } from '@astrojs/image/components';
 
 const meta = {
   title: 'libro el poder y el antipoder',
@@ -19,47 +18,35 @@ const meta = {
     </style>
     <Layout {meta}>
         <div class="imagenesLibro">
-            <Picture
-                src={'https://res.cloudinary.com/djciwvvsd/image/upload/v1683757643/Sistemas%20AutoOrganizados/libro1_fk0h4z.jpg'}
-                class="max-w-full lg:max-w-6xl mx-auto mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
-                widths={[400, 900]}
-                sizes="(max-width: 400px) 400px, 400px"
-                alt={'imagen libro del poder y el antipoder'}
-                loading="eager"
-                aspectRatio={4 / 4}
-                width={400}
-                height={400}
-                loading="eager"
-                decoding="async"
-                background={undefined}
-              />
-              <Picture
-              src={'https://res.cloudinary.com/djciwvvsd/image/upload/v1683758107/Sistemas%20AutoOrganizados/libro2_gzianu.jpg'}
-              class="max-w-full lg:max-w-6xl mx-auto mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
-              widths={[400, 900]}
-              sizes="(max-width: 400px) 400px, 400px"
-              alt={'imagen libro del poder y el antipoder'}
-              loading="eager"
-              aspectRatio={4 / 4}
-              width={400}
-              height={400}
-              loading="eager"
-              decoding="async"
-              background={undefined}
-              />
-              <Picture
-              src={'https://res.cloudinary.com/djciwvvsd/image/upload/v1683758107/Sistemas%20AutoOrganizados/libro3_ar1cly.jpg'}
-              class="max-w-full lg:max-w-6xl mx-auto mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
-              widths={[400, 900]}
-              sizes="(max-width: 400px) 400px, 400px"
-              alt={'imagen libro del poder y el antipoder'}
-              loading="eager"
-              aspectRatio={4 / 4}
-              width={400}
-              height={400}
-              loading="eager"
-              decoding="async"
-              background={undefined}
-              />
+            
+            <div class="flex items-center justify-center w-80">
+                <div class="w-full p-4">
+                    <div class="flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl card">
+                        <div class="prod-title">
+                            <p class="text-2xl font-bold text-gray-900 uppercase">
+                                Libro discurso del método
+                            </p>
+                            <p class="text-sm text-gray-400 uppercase">
+                              Autor: René Descartes 
+                            </p>
+                            <p class="text-sm text-gray-400 uppercase">
+                              formato: PDF
+                            </p>
+                        </div>
+                        <div class="prod-img">
+                            <img src="https://contralainercia.files.wordpress.com/2022/08/633cb95835684ddd9c98a5b8537db68f.jpg?w=733" class="object-cover object-center w-full"/>
+                        </div>
+                      <br/>
+                        <div class="grid gap-10 prod-info ">
+                            <div class="flex flex-col items-center justify-center text-gray-900 md:flex-row">
+                                <a href="https://forms.gle/fLzF4W4rgh4kWdid6" target="_blank" class="px-8 py-2 uppercase transition duration-200 ease-in border-2 border-gray-900 rounded-full hover:bg-gray-800 hover:text-white focus:outline-none">
+                                    Solicitar libro
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             </div>
 </Layout>
