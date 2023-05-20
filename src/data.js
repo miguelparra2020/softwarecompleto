@@ -38,10 +38,10 @@ export const headerData = {
         //   text: '👉 Temática libre',
         //   href:'#'
         // },
-        // {
-        //   text: '👉 Libro: "El poder y el Antipoder"',
-        //   href:'#'
-        // },
+        {
+          text: '👉 Libros',
+          href:'/libro'
+        },
       ],
     },
     // {
@@ -156,10 +156,10 @@ export const headerData = {
       text: '🎙️Podcast',
       href: getPermalink('/blog'),
     },
-    // {
-    //   text: 'Curso',
-    //   href: '#',
-    // },
+    {
+      text: '📚Libros',
+      href: '/libro',
+    },
   ],
 };
   
