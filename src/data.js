@@ -3,7 +3,7 @@ import { getPermalink } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Socio-Políticos',
+      text: 'Socio-Políticos y económicos',
       links: [
         // {
         //   text: '👉 CIBERNÉTICA de las Elecciones y del Desastre Nacional.',
@@ -17,6 +17,10 @@ export const headerData = {
         {
           text: '👉 Los Planos de la Paz',
           href:'/losplanosdelapaz'
+        },
+        {
+          text: '👉 Revolución científico tecnológica para el desarrollo nacional',
+          href:'/revolucioncientificotecnologica'
         },
         {
           text: '👉 Decálogo de la Paz',
