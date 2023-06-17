@@ -9,7 +9,6 @@ import { getCanonical, getAsset } from '~/utils/permalinks';
 import { getRelativeUrlByFilePath } from '~/utils/directories';
 
 import CustomStyles from '~/components/CustomStyles.astro';
-import SplitbeeAnalytics from './SplitbeeAnalytics.astro';
 
 export interface Props extends MetaSEO {
   dontUseTitleTemplate?: boolean;
@@ -28,7 +27,7 @@ const defaultImage = SITE.defaultImage
 
 const {
   title = SITE.name,
-  description = '',
+  description = 'Sistemas autoorganizados',
   image: _image = defaultImage,
 
   canonical = getCanonical(String(Astro.url.pathname)),
@@ -57,6 +56,7 @@ const image =
   title={title}
   titleTemplate={dontUseTitleTemplate ? '%s' : `%s — ${SITE.name}`}
   description={description}
+  
   canonical={String(canonical)}
   noindex={noindex}
   nofollow={nofollow}
@@ -82,6 +82,13 @@ const image =
   }}
 />
 
+{['sistemas auto organizados', 'sistemas autoorganizados', 'Sistemas Autoorganizados', 'Sistemas AutoOrganizados', 'Sistemas Auto Organizados'].map((keyword) => (
+  <meta name="keywords" content={keyword} />
+))}
+
+
+
+
 <CustomStyles />
 
 <!-- Google Site Verification -->
@@ -90,7 +97,6 @@ const image =
 <!-- Google Analytics -->
 {SITE.googleAnalyticsId && <GoogleAnalytics id={String(SITE.googleAnalyticsId)} partytown={true} />}
 
-{SITE.splitbeeAnalytics?.enabled && <SplitbeeAnalytics {...SITE.splitbeeAnalytics} />}
 
 <link rel="shortcut icon" href={getAsset('/favicon.ico')} />
 <link rel="icon" type="image/svg+xml" href={getAsset('/favicon.svg')} />
