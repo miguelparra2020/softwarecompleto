@@ -15,7 +15,7 @@ export interface Props {
   url: string | URL;
 }
 
-const { post } = Astro.props;
+const { post, url } = Astro.props;
 ---
 
 <section class="py-8 sm:py-16 lg:py-20 mx-auto">
@@ -36,7 +36,7 @@ const { post } = Astro.props;
               </>
             )
           }
-          {post.readingTime && <> · {post.readingTime} min</>}
+          {post.readingTime && <> · {post.readingTime} min read</>}
         </p>
       </div>
       <h1
@@ -81,7 +81,6 @@ const { post } = Astro.props;
           <>
             {/* @ts-ignore */}
             <post.Content />
-           
           </>
         ) : (
           <Fragment set:html={post.content} />
@@ -89,9 +88,8 @@ const { post } = Astro.props;
       }
     </div>
     <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-8 flex justify-between flex-col sm:flex-row">
-     
       <PostTags tags={post.tags} class="mr-5" />
-      <SocialShare url={"https://www.sistemasautoorganizados.com/"} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-600" />
+      <SocialShare url={url} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-600" />
     </div>
   </article>
 </section>

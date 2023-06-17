@@ -48,14 +48,15 @@ const meta = {
 
   <!-- Sesión Inicial ******************* -->
 
-  <SesionInicial
+  <SesionInicial 
     callToAction={{ text: 'Get template', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:download' }}
     callToAction2={{ text: 'Learn more', href: '#features' }}
   >
     <!-- Titulo de Bienvenida ******************* -->
-    <Fragment slot="title">
-      
-    <span class="bienvenidos bg-gradient-to-r from-indigo-500 ...">BIENVENIDOS</span> A LA MAGIA DE LOS SISTEMAS AUTOORGANIZADOS
+    <Fragment slot="title" >
+    <div class="mt-5">
+    <span class="bienvenidos">BIENVENIDOS</span> A LA MAGIA DE LOS SISTEMAS AUTOORGANIZADOS
+  </div>  
     </Fragment>
     <!-- Titulo de Bienvenida ******************* -->
   </SesionInicial>
@@ -72,19 +73,12 @@ const meta = {
     items={[
       [
         {
-          title: 'socio-políticos',
+          title: 'socio-políticos y económicos',
           description:
-            'El desarrollo en proyectos destinados a transmitir e incrementar el conocimiento, priorización al modelo de paz, realización personal y felicidad como nuevo contrato social ...Ver más ',
+            ' ',
           icon: 'tabler:brand-tailwind',
           link:'/blog',
         },
-      //   {
-      //     title: 'Socio-Económicos',
-      //     description:
-      //       'Hay un imperativo ético y otro económico, El imperativo económico es la capacidad del adolescente de ganarse la vida a la edad de 18 años, desempeñando un trabajo útil y bien remunerado...ver más ',
-      //     icon: 'tabler:components',
-      //     link:'/blog',
-      //   },
       //   {
       //     title: 'Ciencia y Sociedad',
       //     description:
@@ -93,7 +87,7 @@ const meta = {
       //     link:'/blog',
       //   },
       ],
-      // [
+      [
       //   {
       //     title: 'Didáctica: Formación Y Educación',
       //     description:
@@ -108,14 +102,14 @@ const meta = {
       //     icon: 'tabler:arrows-right-left',
       //     link:'/tag/astro',
       //   },
-      //   {
-      //     title: 'Temática libre',
-      //     description:
-      //       'Encuentra más publicaciones en diversidad de temas... ver más',
-      //     icon: 'tabler:arrows-right',
-      //     link:'/tag/astro',
-      //   }
-      // ],
+        {
+          title: 'Temática libre',
+          description:
+            'Encuentra más publicaciones en diversidad de temas... ver más',
+          icon: 'tabler:arrows-right',
+          link:'/tag/tematicalibre',
+        }
+      ],
     ]}
   />
 <!-- Sesión de categorias ******************* -->

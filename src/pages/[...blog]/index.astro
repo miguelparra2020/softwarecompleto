@@ -5,7 +5,6 @@ import Layout from '~/layouts/PageLayout.astro';
 import SinglePost from '~/components/blog/SinglePost.astro';
 import ToBlogLink from '~/components/blog/ToBlogLink.astro';
 
-
 import { getCanonical, getPermalink } from '~/utils/permalinks';
 import { fetchPosts } from '~/utils/blog';
 import { findImage } from '~/utils/images';
@@ -34,8 +33,6 @@ const meta = {
 ---
 
 <Layout {meta}>
-  <ToBlogLink />
   <SinglePost post={{ ...post, image: meta.image }} url={url} />
   <ToBlogLink />
 </Layout>
-

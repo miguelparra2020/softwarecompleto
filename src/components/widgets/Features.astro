@@ -5,7 +5,6 @@ interface Item {
   title: string;
   description: string;
   icon?: string;
-  link: string;
 }
 
 export interface Props {
@@ -47,23 +46,22 @@ const {
         </div>
       )
     }
-    <div class="grid mx-auto space-y-6 md:grid-cols-2 md:space-y-0 text-center">
+    <div class="grid mx-auto space-y-6 md:grid-cols-2 md:space-y-0">
       {
         items.map((subitems) => (
-          <div class="space-y-8 sm:px-8 text-center">
-            {subitems.map(({ title,  icon,link }) => (
-              <a href={link}>
-              <div class="flex flex-row max-w-md text-center">
-                <div class="mb-4 mr-4 text-center">
-                  <div class="flex items-center justify-center text-center w-12 h-12 rounded-full bg-green-600 dark:bg-green-700 shadow-lg shadow-gray-500/50 hover:shadow-orange-300 ">
+          <div class="space-y-8 sm:px-8">
+            {subitems.map(({ title, description, icon }) => (
+              <div class="flex flex-row max-w-md">
+                <div class="mb-4 mr-4">
+                  <div class="flex items-center justify-center w-12 h-12 rounded-full bg-primary dark:bg-blue-700">
                     {icon && <Icon name={icon} class="w-6 h-6 text-white icon-light" />}
                   </div>
                 </div>
                 <div>
-                  <h3 class="mb-3 text-xl font-bold text-center">{title}</h3>
+                  <h3 class="mb-3 text-xl font-bold">{title}</h3>
+                  <p class="text-muted dark:text-slate-400" set:html={description} />
                 </div>
               </div>
-            </a>
             ))}
           </div>
         ))

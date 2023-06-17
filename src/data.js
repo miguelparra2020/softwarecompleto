@@ -3,7 +3,7 @@ import { getPermalink } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Socio-Políticos y económicos',
+      text: 'Socio - políticos y económicos',
       links: [
         // {
         //   text: '👉 CIBERNÉTICA de las Elecciones y del Desastre Nacional.',
@@ -15,7 +15,7 @@ export const headerData = {
         //   href:'#'
         // },
         {
-          text: '👉 Los Planos de la Paz',
+          text: '👉 Los planos de la paz',
           href:'/losplanosdelapaz'
         },
         {
@@ -23,7 +23,7 @@ export const headerData = {
           href:'/revolucioncientificotecnologica'
         },
         {
-          text: '👉 Decálogo de la Paz',
+          text: '👉 Decálogo de la paz',
           href:'/decalogodelapaz'
         },
         // {
@@ -48,121 +48,13 @@ export const headerData = {
         },
       ],
     },
-    // {
-    //   text: 'Socio-Económicos',
-    //   links: [
-    //     {
-    //       text: '👉 Revolución Científico Tecnológica para el Desarrollo Nacional',
-    //       href: '#',
-    //     },
-    //     {
-    //       text: '👉 Propuesta de Reforma a la Educación del Niño en su más Tierna Infancia (Hasta los Siete Años)',
-    //       href: '#',
-    //     },
-    //     {
-    //       text: '👉 Propuesta de Reforma Académica',
-    //       href: '#',
-    //     },
-    //     {
-    //       text: '👉 Temática libre',
-    //       href:'#'
-    //     },
-    //     {
-    //       text: '👉 Libro: "El poder y el Antipoder"',
-    //       href:'#'
-    //     },
-    //   ],
-    // },
-    // {
-    //   text: 'Ciencia y Sociedad',
-    //   links: [
-    //     {
-    //       text: '👉 La Magia de los Sistemas Autoorganizados',
-    //       href: '#',
-    //     },
-    //     {
-    //       text: '👉 Como Ganar El Premio Nobel',
-    //       href: '#',
-    //     },
-    //     {
-    //       text: '👉 Temática libre',
-    //       href:'#'
-    //     },
-    //     {
-    //       text: '👉 Libro: "El poder y el Antipoder"',
-    //       href:'#'
-    //     },
-    //   ],
-    // },
-    // {
-    //   text: 'Educación',
-    //   links: [
-    //     {
-    //       text: '👉 La reivindicación de los derechos de la niñez o el regreso al paraíso terrenal',
-    //       href: '#',
-    //     },
-    //     {
-    //       text: '👉 Psicoanálisis y Pedagogía Formativa',
-    //       href: '#',
-    //     },
-    //     {
-    //       text: '👉 La Familiaridad como Fundamento de la Identidad Nacional',
-    //       href: '#',
-    //     },
-    //     {
-    //       text: '👉 Propuesta de Reforma a la Educación del Niño en su más Tierna Infancia (Hasta los Siete Años)',
-    //       href: '#',
-    //     },
-    //     {
-    //       text: '👉 Temática libre',
-    //       href:'#'
-    //     },
-    //     {
-    //       text: '👉 Libro: "El poder y el Antipoder"',
-    //       href:'#'
-    //     },
-    //   ],
-    // },
-    // {
-    //   text: 'Antivirales',
-    //   links: [
-    //     {
-    //       text: '👉 Cepa Viral inducida por Luz UV-B y rayos X: La peor amenaza para la humanidad.',
-    //       href: '#',
-    //     },
-    //     {
-    //       text: '👉 Lauril Sulfato Sódico Éter',
-    //       href: '#',
-    //     },
-    //     {
-    //       text: '👉 Nanovacuna Antiviral Bioenergética',
-    //       href: '#',
-    //     },
-    //     {
-    //       text: '👉 Replica a la Falsación de la Silla Vacía a la Nanovacuna Antiviral Bioenergética',
-    //       href: '#',
-    //     },
-    //     {
-    //       text: '👉 Sepa cómo Tratar las Pandemias.',
-    //       href: '#',
-    //     },
-    //     {
-    //       text: '👉 Temática libre',
-    //       href:'#'
-    //     },
-    //     {
-    //       text: '👉 Libro: "El poder y el Antipoder"',
-    //       href:'#'
-    //     },
-    //   ],
-    // },
     {
       text: '📰Blog',
       href: getPermalink('/blog'),
     },
     {
       text: '🎙️Podcast',
-      href: getPermalink('/blog'),
+      href: getPermalink('/tag/podcast'),
     },
     {
       text: '📽️Reels',
@@ -177,49 +69,29 @@ export const headerData = {
   
 export const footerData = {
   links: [
-    // {
-    //   title: 'Libro:',
-    //   links: [
-    //     { text: 'El poder y el antipoder', href: getPermalink('/blog') }
-    //   ],
-    // },
-    {
-      title: 'Podcast/Blog:',
-      links: [
-        { text: 'Publicaciones', href: getPermalink('/blog') },
-      ],
-    },
-    {
-      title: 'Libros:',
-      links: [
-        { text: 'Libros', href: '/libro' },
-      ],
-    },
-    // {
-    //   title: 'Curso:',
-    //   links: [
-    //     { text: 'Temas', href: '#' },
-    //   ],
-    // },
-    // {
-    //   title: 'Contactar',
-    //   links: [
-    //     { text: 'PQR', href: '#' },
-    //     { text: 'Contactar al autor', href: '#' }
-    //   ],
-    // },
-  ],
+  {
+    title: 'Podcast/Blog:',
+    links: [
+      { text: 'Publicaciones', href: getPermalink('/blog') },
+    ],
+  },
+  {
+    title: 'Libros:',
+    links: [
+      { text: 'Libros', href: '/libro' },
+    ],
+  },
+],
   secondaryLinks: [
     { text: 'Política de privacidad', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    // { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/sistemas_autoorganizados' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/sitemasautoorganizados' },
-    { ariaLabel: 'Spotify', icon: 'tabler:brand-spotify', href: 'https://podcasters.spotify.com/pod/show/sistemas-autoorgani' },
+    { ariaLabel: 'RSS', icon: 'tabler:brand-spotify', href: 'https://podcasters.spotify.com/pod/show/sistemas-autoorgani' },
   ],
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
-    Hecho por <a class="text-blue-600 hover:underline dark:text-gray-200" href="#"> Software Hepl Center</a> · Todos los derechos reservados.
+    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://softwarehelpcenter.vercel.app/" target="_blank"> Software help center</a> · All rights reserved.
   `,
 };

@@ -1,10 +1,9 @@
 import defaultImage from './assets/images/default.png';
 
-
 const CONFIG = {
-  name: 'La magia de los sistemas autoorganizados',
+  name: 'Sistemas autoorganizados',
 
-  origin: 'https://astrowind.vercel.app',
+  origin: 'https://sistemasautoorganizados.com',
   basePathname: '/',
   trailingSlash: false,
 
@@ -30,7 +29,7 @@ const CONFIG = {
 
   blog: {
     disabled: false,
-    postsPerPage: 1000,
+    postsPerPage: 4,
 
     post: {
       permalink: '/%slug%', // Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
@@ -45,7 +44,7 @@ const CONFIG = {
     },
 
     category: {
-      pathname: 'category', // Category main path /category/some-category ok
+      pathname: 'category', // Category main path /category/some-category
       noindex: true,
       disabled: false,
     },

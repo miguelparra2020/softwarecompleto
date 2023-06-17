@@ -9,6 +9,7 @@ export interface Props {
   allPostsLink?: string | URL;
   information?: string;
   postIds: string[];
+  count?: number;
 }
 
 const {
@@ -22,7 +23,7 @@ const posts = await findLatestPosts({ count });
   <Headline
     subtitle="Encuentra todas nuestras publicaciones y podcast con actulizaciones constantes. Te invitamos a debatir las tematicas en el foro interactivo."
   >
-    Blog y Podcast
+    Blog
   </Headline>
 
   <Grid posts={posts} />
