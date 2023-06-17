@@ -59,12 +59,17 @@ En el sur oeste asiático las luciérnagas luciola se amotinan en inmenso númer
 El desenvolvimiento de cada uno, es la condición básica para el desarrollo de todos. Eric From
 «Pues somos dos países a la vez. Aunque somos precursores de la Ciencia en América, seguimos viendo a los científicos como brujos herméticos, cuando ya quedan muy pocas cosas en la vida diaria que no sean milagros de la ciencia»  García Márquez, p:12
 
+![solidaridad y al amor ](https://res.cloudinary.com/djciwvvsd/image/upload/v1687044089/Sistemas%20AutoOrganizados/amor_bo9yz5.jpg)
+
 
 ### 2.1 Colombia al filo de la oportunidad
 
 del Comité de los Sabios
 
 El documento de los sabios sostiene que: “La productividad proviene de la incorporación masiva de la ciencia y de la técnica a la actividad productiva del país”, y para lograr este propósito hace una serie de recomendaciones que vinculan la ciencia con un gran número de estamentos nacionales; y agrega que la forma más eficaz de realizar estos vínculos es mediante asociaciones inteligentes con capacidad de aprender y adaptarse como entidades colectivas al rápido cambio de la comunidad. Esto requerimientos son propiedades intrínsecas de los sistemas auto organizados pues solamente ellos tiene la propiedad de crear su propio orden, estructura y función, es decir crean su propio reglamento, y esto implica tener inteligencia, capacidad de aprender y de adaptación (Véase la Bondad y Financiación del Proyecto). De lo anterior se colige que, el proyecto la Revolución Científica Tecnológica tiene las condiciones sugeridas por el COMITÉ DE LOS SABIOS
+
+![ciencia y tecnología ](https://res.cloudinary.com/djciwvvsd/image/upload/v1687044268/Sistemas%20AutoOrganizados/ciencia_y_tecnolog%C3%ADa_kwjm0w.jpg)
+
 
 ### 3. La Proclama por un país al alcance de los niños
 
@@ -74,15 +79,13 @@ Este título corresponde al artículo con el cual el citado autor inicia la divu
 
 La Revolución Científica Tecnológica toma estos vaticinios como línea directriz, y con esta dirección confecciona un proyecto basado en la teoría de los Sistemas Auto organizados, cuya realización posiblemente satisfaría los deseos de nuestro Premio Nobel y la ilusión de los colombianos.
 
-![Los planos de la paz diagrama imagen](https://res.cloudinary.com/djciwvvsd/image/upload/v1684965951/Sistemas%20AutoOrganizados/libertad_felicidad_gsoykh.jpg)
+![Gabriel G. Marquez](https://res.cloudinary.com/djciwvvsd/image/upload/v1687044367/Sistemas%20AutoOrganizados/GMarquez_ey0fxn.jpg)
 
 «La Misión de Ciencia, Educación y Desarrollo, no ha pretendido una respuesta, pero ha querido diseñar una carta de navegación que tal vez ayude a encontrarla (…) Y que la Educación será su órgano maestro» García Márquez, pág.13*
 
-![Los planos de la paz diagrama imagen](https://res.cloudinary.com/djciwvvsd/image/upload/v1684965951/Sistemas%20AutoOrganizados/libertad_felicidad_gsoykh.jpg)
+![Educación](https://res.cloudinary.com/djciwvvsd/image/upload/v1687044451/Sistemas%20AutoOrganizados/educaci%C3%B3n_jifhcz.jpg)
 
 Existe una mano invisible que constituye la esencia de los sistemas auto organizados (SSAA). Estos elementos imponen su condición (esclavizan) a todos los elementos del sistema. Solamente una magia de esta naturaleza es capaz de industrializar al país en un lapso máximo de 10 años.
-
-![Los planos de la paz diagrama imagen](https://res.cloudinary.com/djciwvvsd/image/upload/v1684965951/Sistemas%20AutoOrganizados/libertad_felicidad_gsoykh.jpg)
 
 ### OPINIONES AFINES
 Si el futuro de una organización biológica está programado en su código genético, el futuro de una comunidad está inscrito en sus proyectos. La historia contemporánea nos enseña que la humanidad no sabe vivir si no está comprometida con un magnánimo proyecto.
