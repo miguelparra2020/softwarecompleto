@@ -101,3 +101,5 @@ Anónimo.
 <strong>Antítesis</strong>: El objetivo de la ciencia es producir guía para la acción práctica. Furtado
 
 <strong>Síntesis</strong>: Queda a cargo del lector.
+
+<a href="/revolucioncientificotecnologicaparteii">continuar en: revolución científico tecnológica - 2da Parte</a>
