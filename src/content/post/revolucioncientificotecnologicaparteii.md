@@ -8,7 +8,7 @@ category: socio-politicos-economicos
 tags:
   - lectura
   - tematicalibre
-canonical: https://sistemasautoorganizados.com/revolucioncientificotecnologica
+canonical: https://sistemasautoorganizados.com/revolucioncientificotecnologicaparteii
 ---
 
 ## La Última Oportunidad: un plan.
