@@ -2,6 +2,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 import { defineConfig } from 'astro/config';
+import vercel from '@astrojs/vercel/serverless';
 
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
@@ -23,7 +24,10 @@ export default defineConfig({
   base: SITE.basePathname,
   trailingSlash: SITE.trailingSlash ? 'always' : 'never',
 
-  output: 'static',
+  output: 'server',
+  adapter: vercel({
+    analytics: true,
+  }),
 
   markdown: {
     remarkPlugins: [readingTimeRemarkPlugin],
