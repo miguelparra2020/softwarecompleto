@@ -24,7 +24,7 @@ export default defineConfig({
   base: SITE.basePathname,
   trailingSlash: SITE.trailingSlash ? 'always' : 'never',
 
-  output: 'static',
+  output: 'hybrid',
   adapter: vercel({
     analytics: true,
   }),
