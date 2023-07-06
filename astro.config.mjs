@@ -24,7 +24,7 @@ export default defineConfig({
   base: SITE.basePathname,
   trailingSlash: SITE.trailingSlash ? 'always' : 'never',
 
-  output: 'server',
+  output: 'static',
   adapter: vercel({
     analytics: true,
   }),
