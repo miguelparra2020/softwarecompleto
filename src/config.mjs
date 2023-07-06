@@ -1,5 +1,6 @@
 import defaultImage from './assets/images/default.png';
-import { onMount } from 'astro';
+import { onMount } from '../.astro';
+
 
 onMount(() => {
   window.ga('create', 'G-X52LW1VK5Z', 'auto');
