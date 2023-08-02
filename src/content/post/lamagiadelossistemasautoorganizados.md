@@ -1,5 +1,5 @@
 ---
-publishDate: 2023-05-25T00:00:00Z
+publishDate: 2023-06-25T00:00:00Z
 title: ¿Que son los sistemas autoorganizados?
 description: Comprende en que consisten, sus componentes y funcionamiento, ¡Descubre toda la magia de los sistemas autoorganizados!
 excerpt: Comprende en que consisten, sus componentes y funcionamiento, ¡Descubre toda la magia de los sistemas autoorganizados!
