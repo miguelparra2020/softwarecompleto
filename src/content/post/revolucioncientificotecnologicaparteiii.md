@@ -32,6 +32,22 @@ Este acontecimiento económico, sin necesidad de la tortura taurina ni de la dic
 
 > Ashby W. Ross , introducción a la Cibernética. Ed. Nueva Visión. Buenos Aires. 1972. Caja Negra, pág 133.
 
+### TALLERES ABIERTOS DE ARTES Y OFICIOS
+
+![Talleres](https://res.cloudinary.com/djciwvvsd/image/upload/v1691038486/Sistemas%20AutoOrganizados/Revoluci%C3%B3n_cientifico_nnsltj.jpg)
+
+#### Una sinergia para la Paz
+
+Las sociedades latinoamericanas adolecen de problemas similares, entre una complejidad enorme de situaciones aparecen rasgos comunes como el desempleo, las carencias educativas y las dificultades de convivencia, junto con otras problemáticas que se articulan para generar mayores brechas en la sociedad, incrementar la desigualdad y el sufrimiento. Según un postulado de la sinergía, se deben buscar las soluciones en las entrañas del problema, de allí se infiere que, si capacitamos a la población desempleada en artesanías, artes y oficios, aumentaremos simultáneamente las posibilidades de que creen su propio negocio informal o consigan un empleo digno, pues contarán con habilidades valiosas en el mercado laboral.
+
+Esta iniciativa traerá aparejadas nuevas capacidades para la creatividad, la innovación y la recursividad, favoreciendo de paso la capacidad de trabajar en equipo, disminuyendo la exclusión social y el aislamiento entre los miembros de la sociedad que participen del proceso. Una persona cualquiera podría entrar por la puerta del taller con un problema y salir con una solución o con el conocimiento para crear dicha solución.       
+
+Se trata de instituciones locales destinadas a fomentar la artesanía en todos sus niveles y facetas, en donde se enseña y se aprende todo tipo de técnica artesanal tradicional o contemporánea; en los talleres se capacita, se presta y/o se alquilan máquinas o aparatos para facilitar y tecnificar la producción; finalmente, se compra, se vende, se toma en consignación o se “cambalachea” todo tipo de creaciones, los aprendices y los artesanos sin empleo pueden acudir a este sitio en donde encontrar apoyo entre colegas.
+
+En las afueras de la institución se pueden ubicar una serie de locales en donde se proceda a la comercialización de las creaciones, dichos locales pueden darse en calidad de venta, alquiler o préstamo. La oferta que allí se efectúa debe responder también a un estudio previo de las demandas propias de la sociedad y la empresa local, para lo cual es necesario hacer un inventario de los recursos, necesidades y pretensiones del mercado cultural de la región y las demandas del aparato empresarial.
+
+Un proyecto de esta naturaleza al tiempo que disminuye el desempleo, fortalece la educación, incrementa la movilidad y la inclusión social, desestimula la violencia y desarrolla la creatividad, la planeación, la recursividad necesaria para llevar a cabo proyectos sociales más ambiciosos, como el proyecto de la Revolución Científico – tecnológica.
+
 CONCEPTOS ANCESTRALES
 
 * «Pretender que un país tan felizmente constituido, extenso, rico y populoso, sea meramente pasivo ¿no es un ultraje y una violación a los derechos de la humanidad?» Simón Bolívar (p.161)*
