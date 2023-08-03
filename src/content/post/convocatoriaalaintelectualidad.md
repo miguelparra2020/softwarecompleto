@@ -28,6 +28,8 @@ canonical: https://sistemasautoorganizados.com/decalogodelapaz
 
 **Introducción:** Mediante la Teoría de los Modelos este ensayo pretende evidenciar que el croar de las ranas amazónicas puede servir como modelo a la integración del pueblo latinoamericano.
 
+![Croar del pueblo](https://res.cloudinary.com/djciwvvsd/image/upload/v1691035717/Sistemas%20AutoOrganizados/WhatsApp_Image_2023-08-02_at_6.29.13_PM_wkf9jp.jpg)
+
 **ARGUMENTO NATURAL:**  Existen en Leticia, capital del departamento del Amazonas, Colombia; unas ranas del género ramitomeya, que todas las noches pernoctan en el subterráneo de un  prestigioso hotel campestre. En oponiéndose el astro rey estas ranas sincronizan sus *cánticos croáticos* para atraer a las hembras extraviadas en la selva. De acuerdo al paleontólogo Carlos Jaramillo, “el croar de las ranas es vital para su supervivencia” porque demarca la dirección, la distancia, la ubicación del grupo; y además indica la presencia de depredadores en el camino; los machos mejor dotados les transmiten a las hembras presentes y/o extraviadas el alcance de sus dominios y su potencial fisiológico, lo que garantiza la conservación de la especie.
 
 **MARCO HISTÓRICO:**  En palabras de Bolívar:
@@ -38,6 +40,8 @@ canonical: https://sistemasautoorganizados.com/decalogodelapaz
 
 Así como el canto de las ranas contiene la ubicación, la distancia y la dirección del grupo, los cantos de los pueblos latinoamericanos contienen el sentimiento de orfandad y frustración que los aflige.
 
+![Dirección rana](https://res.cloudinary.com/djciwvvsd/image/upload/v1691035741/Sistemas%20AutoOrganizados/WhatsApp_Image_2023-08-02_at_6.29.12_PM_yuyyof.jpg)
+
 Primer homomorfo: El pueblo latinoamericano tiene una cantidad de intelectuales capaces de salvar a Latinoamérica, pero están incomunicados y dispersos. La comunicación constante y la reunión periódica de estos intelectuales constituye el primer homomorfo.
 
 Segundo homomorfo: La distancia a la que se encuentran las ranas extraviadas del hotel, descritas en el “argumento natural” se análoga con la diferencia existente entre los países modernizados y los que se encuentran en vía de desarrollo en todos los aspectos: social, político, económico, educacional…
@@ -45,6 +49,8 @@ Segundo homomorfo: La distancia a la que se encuentran las ranas extraviadas del
 Tercer homomorfo: La dirección en la cual deben avanzar las ranas para alcanzar el hotel se análoga con los programas de salvación de los países latinoamericanos. Los países deben optar para modernizarse por un programa que les permita la integración con América latina, como el programa de La revolución científica para el desarrollo nacional… en el que se advierte, entre otras cosas,  que se requiere el inventario de los recursos y necesidades del aparato productor, y enviar 600.000 estudiantes a formarse como científicos en las mejores universidades del mundo.
 
 Cuarto homomorfo: Los depredadores que las ranas pueden encontrar en el camino, en nuestro modelo, se analogan con las potencias esclavistas e imperialistas que nos acechan para explotarnos y esclavizarnos. Así lo vaticinó el padre de la patria cuando dijo: “Los Estados Unidos parecen haber sido destinados por la Providencia para plagar la América de miserias en nombre de la libertad”.
+
+![Lobos extranjeros](https://res.cloudinary.com/djciwvvsd/image/upload/v1691035759/Sistemas%20AutoOrganizados/WhatsApp_Image_2023-08-02_at_6.57.33_PM_wddyja.jpg)
 
 **Isomorfos**  (Norma)
 
@@ -56,11 +62,16 @@ El croar de las ranas amazónicas es el símil de las voces de los pueblos latin
 
 Si el canto de las ranas no es escuchado y si las voces de integración no se atienden, los países aislados de esta región podrían declararse en bancarrota, lo cual ocurrirá en el mismo momento en que por el costo de los insumos que se compran al primer mundo, se disparen también los costos de producción; de tal manera que todo aquello que producimos y exportamos tengamos que venderlo al primer mundo por un precio inferior del que gastamos produciendo; este oscuro panorama lleva a que las naciones del llamado tercer mundo tengan que declararse en insolvencia y suplicar por un protectorado a las potencias a cambio de la soberanía y la dignidad de los territorios.
 
+![ranas](https://res.cloudinary.com/djciwvvsd/image/upload/v1691035991/Sistemas%20AutoOrganizados/WhatsApp_Image_2023-08-02_at_6.34.33_PM_ovkw0g.jpg)
+
 **Modus operandi:**
 
 George Washington decía: “Espera lo mejor pero prepárate para lo peor”, en concordancia con este aforismo esperamos que se convoque primero a los líderes y presidentes que simpatizan con el sueño bolivariano, para que sean ellos quienes propicien la integración latinoamericana, apoyados en el poder político y ejecutivo; y si por las contingencias de la incomunicación, los cantos de unidad terminan sin respuesta por parte de los presidentes le corresponderá a las agrupaciones de la sociedad civil la responsabilidad de efectuar dicha integración.
 
 Esta convocatoria apela a la gente pensante, organizada en sociedades bolivarianas, filantrópicas, universidades, sindicatos y todo tipo de asociaciones cuyo pensamiento de amplio espectro se pueda sincronizar con estas ideas, y que emprendan o impulsen propuestas de integración como las siguientes:
+
+![Mapa construyendo america latina](https://res.cloudinary.com/djciwvvsd/image/upload/v1691035783/Sistemas%20AutoOrganizados/WhatsApp_Image_2023-08-02_at_6.48.24_PM_uvvgkt.jpg)
+
 
 - 13 de octubre: Día de la integración latinoamericana.
 - Que se establezca “la Integración latinoamericana” dentro del pensum de las universidades y colegios a manera de cátedras, investigaciones y publicaciones; y que se desarrollen posgrados en las carreras afines.
@@ -74,6 +85,8 @@ Esta convocatoria apela a la gente pensante, organizada en sociedades bolivarian
 - Red eléctrica latinoamericana basada en energías limpias.
 
 Y muchas otras propuestas con las que usted estimado lector (a) también puede colaborar. ¿Qué idea se le ocurre para integrar a América Latina?
+
+![Mapa america latina aguilas](https://res.cloudinary.com/djciwvvsd/image/upload/v1691035806/Sistemas%20AutoOrganizados/WhatsApp_Image_2023-08-02_at_6.50.25_PM_kwrz2v.jpg)
 
 **BIBLIOGRAFÍA**
 
