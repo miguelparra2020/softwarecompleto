@@ -1,17 +1,10 @@
 
-
-
-const FacebookMessengerChat = () => {
- 
-
+const HolaComponente = () => {
   return (
     <div>
-      {/* Contenido de tu aplicación */}
-      <h1>Mi Aplicación</h1>
-      
+      <h1>Hola desde mi componente JSX</h1>
     </div>
   );
 };
 
-export default FacebookMessengerChat;
-
+export default HolaComponente;
