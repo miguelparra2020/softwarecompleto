@@ -11,7 +11,7 @@ import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import compress from 'astro-compress';
 import { readingTimeRemarkPlugin } from './src/utils/frontmatter.mjs';
-
+import react from '@astrojs/react';
 import { SITE } from './src/config.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -33,7 +33,7 @@ export default defineConfig({
     remarkPlugins: [readingTimeRemarkPlugin],
   },
 
-  integrations: [
+  integrations: [react(),
     tailwind({
       config: {
         applyBaseStyles: false,

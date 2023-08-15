@@ -6,6 +6,9 @@ module.exports = {
   },
   extends: ['eslint:recommended', 'plugin:astro/recommended'],
   parserOptions: {
+    "ecmaFeatures": {
+      "jsx": true
+    },
     ecmaVersion: 'latest',
     sourceType: 'module',
   },

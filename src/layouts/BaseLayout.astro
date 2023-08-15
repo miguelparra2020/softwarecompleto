@@ -21,7 +21,8 @@ const { language = 'es', textDirection = 'ltr' } = SITE;
     <MetaTags {...meta} />
     <script async src="https://static.vercel-analytics.com/hello.js" data-vercel-bridge="api_key: prj_QjgFtEqIB7RtaXSLfGg2agvqjJaZ"></script>
      <!-- Incluye el SDK de Facebook -->
-   
+     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js" nonce=""></script>
+
   </head>
 
   <body class="antialiased text-page bg-light dark:text-slate-300 tracking-tight dark:bg-dark">
@@ -33,35 +34,5 @@ const { language = 'es', textDirection = 'ltr' } = SITE;
       }
     </style>
   </body>
-  <!-- Messenger Plugin de chat Code -->
-  <div id="fb-root"></div>
-
-  <!-- Your Plugin de chat code -->
-  <div id="fb-customer-chat" class="fb-customerchat">
-  </div>
-
-  <script>
-    var chatbox = document.getElementById('fb-customer-chat');
-    chatbox.setAttribute("page_id", "100133298391116");
-    chatbox.setAttribute("attribution", "biz_inbox");
-  </script>
-
-  <!-- Your SDK code -->
-  <script>
-    window.fbAsyncInit = function() {
-      // eslint-disable-next-line no-undef
-      FB.init({
-        xfbml            : true,
-        version          : 'v17.0'
-      });
-    };
-
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
+  
 </html>
