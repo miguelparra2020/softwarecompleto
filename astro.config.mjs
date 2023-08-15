@@ -10,6 +10,7 @@ import image from '@astrojs/image';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import compress from 'astro-compress';
+import react from '@astrojs/react';
 import { readingTimeRemarkPlugin } from './src/utils/frontmatter.mjs';
 import { SITE } from './src/config.mjs';
 
@@ -32,7 +33,7 @@ export default defineConfig({
     remarkPlugins: [readingTimeRemarkPlugin],
   },
 
-  integrations: [
+  integrations: [react(),
     tailwind({
       config: {
         applyBaseStyles: false,
