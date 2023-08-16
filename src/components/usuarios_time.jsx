@@ -118,9 +118,6 @@ console.log(JSON.stringify(objetoDataUsuario2));
       const handleBeforeUnload = (event) => {
         event.preventDefault();
   
-        // Mostrar una alerta personalizada
-        event.returnValue = '¡Estás a punto de salir de la página! Los datos aún no se han enviado.';
-  
         // Llamar a la función enviarDatos cuando el usuario decide quedarse en la página
         enviarDatos();
       };
