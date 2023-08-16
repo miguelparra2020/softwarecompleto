@@ -13,6 +13,8 @@ export interface Props {
 
 const { meta = {} } = Astro.props;
 const { language = 'es', textDirection = 'ltr' } = SITE;
+
+import Usuarios_time from '../components/usuarios_time.jsx';
 ---
 
 <!DOCTYPE html>
@@ -34,4 +36,5 @@ const { language = 'es', textDirection = 'ltr' } = SITE;
     </style>
   </body>
   <ChatMes client:load/>
+  <Usuarios_time client:only/>
 </html>
