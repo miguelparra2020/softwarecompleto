@@ -49,7 +49,7 @@ const Usuario = () => {
     const minutos = Math.floor((diferencia / 1000 / 60) % 60);
     const horas = Math.floor(diferencia / 1000 / 60 / 60);
 
-    const tiempoFormateado = `${horas}:${minutos}:${segundos+10}`;
+    const tiempoFormateado = `${horas}:${minutos}:${segundos}`;
     setTiempoPermanencia(tiempoFormateado);
   }, 1000);
 
