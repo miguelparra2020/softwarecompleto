@@ -1,33 +1,27 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 const FacebookMessengerChat = () => {
   useEffect(() => {
-    // Configura el SDK de Facebook
+    // Cargar el SDK de Facebook
     window.fbAsyncInit = function() {
+      // eslint-disable-next-line no-undef
       FB.init({
-        appId: '100133298391116',
-        autoLogAppEvents: true,
         xfbml: true,
-        version: 'v17.0'
+        version: 'v13.0'
       });
     };
 
-    // Carga el SDK de Facebook
     (function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   }, []);
 
   return (
     <div>
-      {/* Contenido de tu aplicación */}
-      <h1>Mi Aplicación</h1>
-      
-      {/* Chat de Facebook Messenger */}
       <div id="fb-root"></div>
       <div
         className="fb-customerchat"
