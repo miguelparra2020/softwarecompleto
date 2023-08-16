@@ -138,7 +138,7 @@ console.log(JSON.stringify(objetoDataUsuario2));
       Hora de ingreso: {horaIngreso}
       <br />
       Tiempo de permanencia: {tiempoPermanencia}
-    
+      <br />
     </div>
   );
 };
