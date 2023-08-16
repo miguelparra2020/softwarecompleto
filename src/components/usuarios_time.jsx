@@ -38,23 +38,23 @@ const Usuario = () => {
 
     // Función para calcular el tiempo de permanencia
     const calcularTiempoPermanencia = () => {
-      const horaInicio = new Date();
-      
-      // Actualizar el tiempo de permanencia cada segundo
-      const intervalo = setInterval(() => {
-        const horaActual = new Date();
-        const diferencia = horaActual - horaInicio;
-        
-        const segundos = Math.floor(diferencia / 1000);
-        const minutos = Math.floor(segundos / 60);
-        const horas = Math.floor(minutos / 60);
-        
-        const tiempoFormateado = `${horas}:${minutos % 60}:${segundos % 60}`;
-        setTiempoPermanencia(tiempoFormateado);
-      }, 1000);
-      
-      return intervalo;
-    };
+  const horaInicio = new Date();
+
+  // Actualizar el tiempo de permanencia cada segundo
+  const intervalo = setInterval(() => {
+    const horaActual = new Date();
+    const diferencia = horaActual - horaInicio;
+
+    const segundos = Math.floor((diferencia / 1000) % 60);
+    const minutos = Math.floor((diferencia / 1000 / 60) % 60);
+    const horas = Math.floor(diferencia / 1000 / 60 / 60);
+
+    const tiempoFormateado = `${horas}:${minutos}:${segundos+10}`;
+    setTiempoPermanencia(tiempoFormateado);
+  }, 1000);
+
+  return intervalo;
+};
     
 
     // Generar y establecer el nombre de usuario aleatorio
@@ -138,7 +138,8 @@ console.log(JSON.stringify(objetoDataUsuario2));
       Hora de ingreso: {horaIngreso}
       <br />
       Tiempo de permanencia: {tiempoPermanencia}
-      <br />
+      <br/>
+      {/* {objetoDataUsuario2} */}
     </div>
   );
 };
