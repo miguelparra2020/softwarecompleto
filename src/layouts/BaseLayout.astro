@@ -1,6 +1,6 @@
 ---
 import '~/assets/styles/base.css';
-
+import ChatMes from '../components/chatmes.jsx';
 import MetaTags from '~/components/common/MetaTags.astro';
 import BasicScripts from '~/components/common/BasicScripts.astro';
 
@@ -33,5 +33,5 @@ const { language = 'es', textDirection = 'ltr' } = SITE;
       }
     </style>
   </body>
-  
+  <ChatMes client:load/>
 </html>
