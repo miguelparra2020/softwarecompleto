@@ -102,7 +102,7 @@ const Usuario = () => {
     "ruta": ruta,
     "hora_ingreso": horaIngresoActual,
     "hora_salida": "18:20:00",
-    "fecha_salida": dataMiIP.country,
+    "fecha_salida": dataIPS,
     "id": nombreUsuarioAleatorio,
     "fecha_ingreso": fechaIngresoActual
     };
