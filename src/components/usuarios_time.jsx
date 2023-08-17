@@ -8,33 +8,37 @@ const Usuario = () => {
   const [tiempoInicio] = useState(new Date());
   const ruta = window.location.pathname;
   const [miIp, setMiIp] = useState('');
+  const [ipObtenida, setIpObtenida] = useState(false); 
 
-  const miIpFunct = async () => {
-    try {
-      const response = await fetch('https://api.ipify.org?format=json', {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      });
-
-      if (response.ok) {
-        const data = await response.json(); // Parsea la respuesta JSON
-        setMiIp(data.ip);
-        console.log('Datos recibidos IP');
-      } else {
-        console.error('Error al recibir');
-      }
-    } catch (error) {
-      console.error('Error de red:', error);
-    }
-  };
+  
 
 
   useEffect(() => {
-    // Obtener el país del usuario a través de su dirección IP
+    // Función para obtener la dirección IP
+    const miIpFunct = async () => {
+      try {
+        const response = await fetch('https://api.ipify.org?format=json', {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          setMiIp(data.ip);
+          setIpObtenida(true); // Marcar que se obtuvo la IP
+          console.log('Datos recibidos IP');
+        } else {
+          console.error('Error al recibir');
+        }
+      } catch (error) {
+        console.error('Error de red:', error);
+      }
+    };
+
+    // Obtener la dirección IP al inicio
     miIpFunct();
-    
     // Función para generar un nombre de usuario aleatorio
     const generarNombreUsuarioAleatorio = () => {
       const nombre = 'Usuario';
@@ -161,7 +165,7 @@ const Usuario = () => {
   return (
     <div>
       Hola soy usuario: {usuario}
-      <p>Mi dirección IP: {miIp}</p>
+      <p>Mi dirección IP: {ipObtenida ? miIp : 'Obteniendo dirección IP...'}</p>
       <br />
       Ruta: {ruta}
       <br />
