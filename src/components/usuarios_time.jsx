@@ -39,10 +39,10 @@ const Usuario = () => {
     // obtenerMiIp();
     // console.log(miIp);
     // obtenerDataMiIp();
-    console.log(usuario);
-    console.log(fechaIngreso);
-    console.log(horaIngreso);
-    console.log(tiempoPermanencia);
+    // console.log(usuario);
+    // console.log(fechaIngreso);
+    // console.log(horaIngreso);
+    // console.log(tiempoPermanencia);
 
     // console.log(dataMiIp.country);
     // console.log(dataMiIp.city);
@@ -145,7 +145,7 @@ const Usuario = () => {
       window.removeEventListener('beforeunload', beforeUnloadHandler);
       clearInterval(intervaloTiempo);
     };
-  }, [usuario,fechaIngreso,horaIngreso, tiempoPermanencia, ruta]);
+  }, []);
 
   const datos = (dataObject) => {
     console.log(dataObject)
