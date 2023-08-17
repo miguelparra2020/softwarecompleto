@@ -5,6 +5,8 @@ const Usuario = () => {
   const [tiempoPermanencia, setTiempoPermanencia] = useState('00:00:00');
   const [tiempoInicio] = useState(new Date());
 
+  const [dataIPS, setDataIPS] = useState('00:00:00');
+
   useEffect(() => {
 
 // ----------Función Usuario aleatorio---------------
@@ -62,10 +64,22 @@ const Usuario = () => {
         const tiempoFormateado = `${String(horas).padStart(2, '0')}:${String(minutos).padStart(2, '0')}:${String(segundos).padStart(2, '0')}`;
         setTiempoPermanencia(tiempoFormateado);
       }, 1000);
-
-
 //----Función tiempo de permanencia------
 
+//---Función mi Ip -------------
+
+    async function obtenerMiIp() {
+        try {
+          const response = await fetch('https://api.ipify.org/?format=json');
+          const dataIP = await response.json();
+          setDataIPS(dataIP.ip)
+          return 
+        } catch (error) {
+          console.error(error);
+        }
+      }
+      obtenerMiIp()
+//---Función mi Ip -------------
 
 //---------Objeto de registrar datos ----------
     const objetoDataUsuario = {
@@ -73,12 +87,12 @@ const Usuario = () => {
     "ruta": ruta,
     "hora_ingreso": horaIngresoActual,
     "hora_salida": "18:20:00",
-    "fecha_salida": "09/08/2023",
+    "fecha_salida": dataIPS,
     "id": nombreUsuarioAleatorio,
     "fecha_ingreso": fechaIngresoActual
     };
 
-    console.log(nombreUsuarioAleatorio, tiempoPermanencia)
+    console.log(nombreUsuarioAleatorio, tiempoPermanencia, dataIPS)
 
   //---------Objeto de registrar datos ----------
 
