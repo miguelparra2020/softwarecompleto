@@ -5,7 +5,8 @@ const Usuario = () => {
   const [tiempoPermanencia, setTiempoPermanencia] = useState('00:00:00');
   const [tiempoInicio] = useState(new Date());
 
-  const [dataIPS, setDataIPS] = useState('00:00:00');
+  const [dataIPS, setDataIPS] = useState('');
+  const [dataMiIP, setDataMiIp] = useState('');
 
   useEffect(() => {
 
@@ -81,18 +82,32 @@ const Usuario = () => {
       obtenerMiIp()
 //---Función mi Ip -------------
 
+//-----Función mi País --------
+    async function obtenerDataMiIp() {
+        try {
+          const response = await fetch(`http://ip-api.com/json/${dataIPS}`);
+          const data = await response.json();
+          setDataMiIp(data);
+        } catch (error) {
+          console.error(error);
+        }
+      }
+
+      obtenerDataMiIp()
+//-----Función mi País --------
+
 //---------Objeto de registrar datos ----------
     const objetoDataUsuario = {
     "tiempo": tiempoPermanencia,
     "ruta": ruta,
     "hora_ingreso": horaIngresoActual,
     "hora_salida": "18:20:00",
-    "fecha_salida": dataIPS,
+    "fecha_salida": dataMiIP.country,
     "id": nombreUsuarioAleatorio,
     "fecha_ingreso": fechaIngresoActual
     };
 
-    console.log(nombreUsuarioAleatorio, tiempoPermanencia, dataIPS)
+    console.log(nombreUsuarioAleatorio, tiempoPermanencia, dataIPS,dataMiIP.country )
 
   //---------Objeto de registrar datos ----------
 
