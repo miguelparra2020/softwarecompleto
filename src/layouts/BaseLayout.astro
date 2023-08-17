@@ -1,6 +1,6 @@
 ---
 import '~/assets/styles/base.css';
-import ChatMes from '../components/chatmes.jsx';
+
 import MetaTags from '~/components/common/MetaTags.astro';
 import BasicScripts from '~/components/common/BasicScripts.astro';
 
@@ -21,7 +21,6 @@ import Usuarios_time from '../components/usuarios_time.jsx';
 <html lang={language} dir={textDirection} class="2xl:text-[20px]">
   <head>
     <MetaTags {...meta} />
-    <script async src="https://static.vercel-analytics.com/hello.js" data-vercel-bridge="api_key: prj_QjgFtEqIB7RtaXSLfGg2agvqjJaZ"></script>
      <!-- Incluye el SDK de Facebook -->
 
   </head>
@@ -35,6 +34,5 @@ import Usuarios_time from '../components/usuarios_time.jsx';
       }
     </style>
   </body>
-  <ChatMes client:load/>
   <Usuarios_time client:only/>
 </html>

@@ -12,8 +12,6 @@ export interface Props {
 }
 
 const { meta } = Astro.props;
-
-import ChatMes from '../components/chatmes.jsx';
 ---
 
 <Layout {meta}>
@@ -26,5 +24,4 @@ import ChatMes from '../components/chatmes.jsx';
   <slot name="footer">
     <Footer {...footerData} />
   </slot>
-  <ChatMes client:load/>
 </Layout>
