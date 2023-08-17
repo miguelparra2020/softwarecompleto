@@ -7,6 +7,8 @@ const Usuario = () => {
   const [tiempoPermanencia, setTiempoPermanencia] = useState('00:00:00');
   const [tiempoInicio] = useState(new Date());
   const ruta = window.location.pathname;
+
+  
   // const [miIp, setMiIp] = useState('');
   // const [dataMiIp, setDataMiIp] = useState('');
 
@@ -143,7 +145,7 @@ const Usuario = () => {
       window.removeEventListener('beforeunload', beforeUnloadHandler);
       clearInterval(intervaloTiempo);
     };
-  }, []);
+  }, [usuario,fechaIngreso,horaIngreso, tiempoPermanencia, ruta]);
 
   const datos = (dataObject) => {
     console.log(dataObject)
