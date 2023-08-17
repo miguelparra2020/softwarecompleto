@@ -94,6 +94,7 @@ const Usuario = () => {
       }
 
       obtenerDataMiIp()
+      console.log(dataMiIP);
 //-----Función mi País --------
 
 //---------Objeto de registrar datos ----------
@@ -107,7 +108,7 @@ const Usuario = () => {
     "fecha_ingreso": fechaIngresoActual
     };
 
-    console.log(nombreUsuarioAleatorio, tiempoPermanencia, dataIPS,dataMiIP.country )
+    console.log(objetoDataUsuario)
 
   //---------Objeto de registrar datos ----------
 
