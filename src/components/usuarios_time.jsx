@@ -1,7 +1,9 @@
-import {  useEffect } from 'react';
+import {  useEffect,useState } from 'react';
 import { enviarDatos } from '../../db/db.jsx';
 
 const Usuario = () => {
+  const [tiempoPermanencia, setTiempoPermanencia] = useState('00:00:00');
+  const [tiempoInicio] = useState(new Date());
 
   useEffect(() => {
 
@@ -43,11 +45,32 @@ const Usuario = () => {
     const horaIngresoActual = obtenerHoraIngreso();
 //------Función de hora de ingreso -----------
 
+//------Función ruta --------------
+    const ruta = window.location.pathname;
+
+//------Función ruta --------------
+
+//----Función tiempo de permanencia------
+      const intervaloTiempo = setInterval(() => {
+        const horaActual = new Date();
+        const diferencia = horaActual - tiempoInicio;
+
+        const segundos = Math.floor((diferencia / 1000) % 60);
+        const minutos = Math.floor((diferencia / 1000 / 60) % 60);
+        const horas = Math.floor(diferencia / 1000 / 60 / 60);
+
+        const tiempoFormateado = `${String(horas).padStart(2, '0')}:${String(minutos).padStart(2, '0')}:${String(segundos).padStart(2, '0')}`;
+        setTiempoPermanencia(tiempoFormateado);
+      }, 1000);
+
+
+//----Función tiempo de permanencia------
+
 
 //---------Objeto de registrar datos ----------
     const objetoDataUsuario = {
-    "tiempo": "00:16:00",
-    "ruta": "/planosdelapaz",
+    "tiempo": tiempoPermanencia,
+    "ruta": ruta,
     "hora_ingreso": horaIngresoActual,
     "hora_salida": "18:20:00",
     "fecha_salida": "09/08/2023",
@@ -55,7 +78,7 @@ const Usuario = () => {
     "fecha_ingreso": fechaIngresoActual
     };
 
-    console.log(nombreUsuarioAleatorio)
+    console.log(nombreUsuarioAleatorio, tiempoPermanencia)
 
   //---------Objeto de registrar datos ----------
 
@@ -72,9 +95,10 @@ const Usuario = () => {
   //--------Resetear----------------
   return () => {
     window.removeEventListener('beforeunload', beforeUnloadHandler);
+    clearInterval(intervaloTiempo);
   };
    //--------Resetear----------------
-  }, []); 
+  }, [tiempoPermanencia]); 
 };
 
 export default Usuario;
