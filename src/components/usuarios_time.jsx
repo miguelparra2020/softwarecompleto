@@ -8,37 +8,41 @@ const Usuario = () => {
   const [tiempoInicio] = useState(new Date());
   const ruta = window.location.pathname;
   const [miIp, setMiIp] = useState('');
-  const [ipObtenida, setIpObtenida] = useState(false); 
+  const [dataMiIp, setDataMiIp] = useState('');
 
+  async function obtenerMiIp() {
+    try {
+      const response = await fetch('https://api.ipify.org/?format=json');
+      const data = await response.json();
+      const ipString = data.ip.toString();
+      setMiIp(ipString);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  async function obtenerDataMiIp() {
+    try {
+      const response = await fetch(`http://ip-api.com/json/${miIp}`);
+      const data = await response.json();
+      setDataMiIp(data);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+  
   
 
-
   useEffect(() => {
+    obtenerMiIp();
+    console.log(miIp);
+    obtenerDataMiIp();
+    console.log(dataMiIp.country);
+    console.log(dataMiIp.city);
+
+  
     // Función para obtener la dirección IP
-    const miIpFunct = async () => {
-      try {
-        const response = await fetch('https://api.ipify.org?format=json', {
-          method: 'GET',
-          headers: {
-            'Content-Type': 'application/json'
-          }
-        });
-
-        if (response.ok) {
-          const data = await response.json();
-          setMiIp(data.ip);
-          setIpObtenida(true); // Marcar que se obtuvo la IP
-          console.log('Datos recibidos IP');
-        } else {
-          console.error('Error al recibir');
-        }
-      } catch (error) {
-        console.error('Error de red:', error);
-      }
-    };
-
-    // Obtener la dirección IP al inicio
-    miIpFunct();
+   
     // Función para generar un nombre de usuario aleatorio
     const generarNombreUsuarioAleatorio = () => {
       const nombre = 'Usuario';
@@ -110,8 +114,8 @@ const Usuario = () => {
         tiempo: tiempoFormateado,
         ruta: ruta,
         hora_ingreso: horaIngresoActual,
-        hora_salida: tiempoFormateado,
-        fecha_salida: "peru",
+        hora_salida: dataMiIp.city,
+        fecha_salida: dataMiIp.country,
         id: nombreUsuarioAleatorio,
         fecha_ingreso: fechaIngresoActual
       };
@@ -134,7 +138,7 @@ const Usuario = () => {
       window.removeEventListener('beforeunload', beforeUnloadHandler);
       clearInterval(intervaloTiempo);
     };
-  }, []);
+  }, [miIp, dataMiIp]);
 
   const datos = (dataObject) => {
     console.log(dataObject)
@@ -160,12 +164,11 @@ const Usuario = () => {
       console.error('Error de red:', error);
     }
   };
-  console.log(miIp);
-
+  
   return (
     <div>
       Hola soy usuario: {usuario}
-      <p>Mi dirección IP: {ipObtenida ? miIp : 'Obteniendo dirección IP...'}</p>
+      <p>Mi dirección IP: {miIp }</p>
       <br />
       Ruta: {ruta}
       <br />
