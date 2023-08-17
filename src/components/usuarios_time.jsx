@@ -31,11 +31,24 @@ const Usuario = () => {
 
 //------Función de Fecha de ingreso ------------
 
+//------Función de hora de ingreso -----------
+    const obtenerHoraIngreso = () => {
+      const fecha = new Date();
+      const opcionesHora = { hour: 'numeric', minute: 'numeric', second: 'numeric' };
+      const horaFormateada = fecha.toLocaleTimeString('es-ES', opcionesHora);
+        
+      return `${horaFormateada}`;
+    };
+
+    const horaIngresoActual = obtenerHoraIngreso();
+//------Función de hora de ingreso -----------
+
+
 //---------Objeto de registrar datos ----------
     const objetoDataUsuario = {
     "tiempo": "00:16:00",
     "ruta": "/planosdelapaz",
-    "hora_ingreso": "18:10:00",
+    "hora_ingreso": horaIngresoActual,
     "hora_salida": "18:20:00",
     "fecha_salida": "09/08/2023",
     "id": nombreUsuarioAleatorio,
