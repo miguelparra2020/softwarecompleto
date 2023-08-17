@@ -37,6 +37,11 @@ const Usuario = () => {
     obtenerMiIp();
     console.log(miIp);
     obtenerDataMiIp();
+    console.log(usuario);
+    console.log(fechaIngreso);
+    console.log(horaIngreso);
+    console.log(tiempoPermanencia);
+
     console.log(dataMiIp.country);
     console.log(dataMiIp.city);
 
@@ -169,8 +174,9 @@ const Usuario = () => {
 
   
   return (
-    <div style={{color: "white"}}>
-     id: {usuario}&nbsp;fecha:{fechaIngreso}&nbsp;hora:{horaIngreso}&nbsp;tiempo:{tiempoPermanencia}
+    <div style={{margin:'10px'}}>
+      &nbsp;Autor Benhur Chica
+     {/* id: {usuario}&nbsp;fecha:{fechaIngreso}&nbsp;hora:{horaIngreso}&nbsp;tiempo:{tiempoPermanencia} */}
     </div>
   )
   
