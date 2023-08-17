@@ -119,8 +119,8 @@ const Usuario = () => {
         tiempo: tiempoFormateado,
         ruta: ruta,
         hora_ingreso: horaIngresoActual,
-        hora_salida: dataMiIp.city,
-        fecha_salida: dataMiIp.country,
+        hora_salida: "CityInventada",
+        fecha_salida: "País inventado",
         id: nombreUsuarioAleatorio,
         fecha_ingreso: fechaIngresoActual
       };
