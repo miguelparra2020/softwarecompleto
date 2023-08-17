@@ -7,43 +7,43 @@ const Usuario = () => {
   const [tiempoPermanencia, setTiempoPermanencia] = useState('00:00:00');
   const [tiempoInicio] = useState(new Date());
   const ruta = window.location.pathname;
-  const [miIp, setMiIp] = useState('');
-  const [dataMiIp, setDataMiIp] = useState('');
+  // const [miIp, setMiIp] = useState('');
+  // const [dataMiIp, setDataMiIp] = useState('');
 
-  async function obtenerMiIp() {
-    try {
-      const response = await fetch('https://api.ipify.org/?format=json');
-      const data = await response.json();
-      const ipString = data.ip.toString();
-      setMiIp(ipString);
-    } catch (error) {
-      console.error(error);
-    }
-  }
+  // async function obtenerMiIp() {
+  //   try {
+  //     const response = await fetch('https://api.ipify.org/?format=json');
+  //     const data = await response.json();
+  //     const ipString = data.ip.toString();
+  //     setMiIp(ipString);
+  //   } catch (error) {
+  //     console.error(error);
+  //   }
+  // }
 
-  async function obtenerDataMiIp() {
-    try {
-      const response = await fetch(`http://ip-api.com/json/${miIp}`);
-      const data = await response.json();
-      setDataMiIp(data);
-    } catch (error) {
-      console.error(error);
-    }
-  }
+  // async function obtenerDataMiIp() {
+  //   try {
+  //     const response = await fetch(`http://ip-api.com/json/${miIp}`);
+  //     const data = await response.json();
+  //     setDataMiIp(data);
+  //   } catch (error) {
+  //     console.error(error);
+  //   }
+  // }
   
   
 
   useEffect(() => {
-    obtenerMiIp();
-    console.log(miIp);
-    obtenerDataMiIp();
+    // obtenerMiIp();
+    // console.log(miIp);
+    // obtenerDataMiIp();
     console.log(usuario);
     console.log(fechaIngreso);
     console.log(horaIngreso);
     console.log(tiempoPermanencia);
 
-    console.log(dataMiIp.country);
-    console.log(dataMiIp.city);
+    // console.log(dataMiIp.country);
+    // console.log(dataMiIp.city);
 
   
     // Función para obtener la dirección IP
@@ -143,7 +143,7 @@ const Usuario = () => {
       window.removeEventListener('beforeunload', beforeUnloadHandler);
       clearInterval(intervaloTiempo);
     };
-  }, [miIp, dataMiIp]);
+  }, []);
 
   const datos = (dataObject) => {
     console.log(dataObject)
