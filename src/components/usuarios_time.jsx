@@ -167,11 +167,9 @@ const Usuario = () => {
 
 
 
-  const divStyle = {
-    color: '#ffffff',
-  };
+  
   return (
-    <div style={divStyle}>
+    <div style={{color: "white"}}>
      id: {usuario}&nbsp;fecha:{fechaIngreso}&nbsp;hora:{horaIngreso}&nbsp;tiempo:{tiempoPermanencia}
     </div>
   )
