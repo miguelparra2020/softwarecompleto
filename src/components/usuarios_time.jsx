@@ -31,7 +31,7 @@ const Usuario = () => {
     }
   }
   
-  
+  console.log(usuario,fechaIngreso,horaIngreso,tiempoPermanencia);
 
   useEffect(() => {
     obtenerMiIp();
@@ -165,21 +165,6 @@ const Usuario = () => {
     }
   };
   
-  return (
-    <div>
-      Hola soy usuario: {usuario}
-      <p>Mi dirección IP: {miIp }</p>
-      <br />
-      Ruta: {ruta}
-      <br />
-      Fecha de ingreso: {fechaIngreso}
-      <br />
-      Hora de ingreso: {horaIngreso}
-      <br />
-      Tiempo de permanencia: {tiempoPermanencia}
-      <br/>
-    </div>
-  );
 };
 
 export default Usuario;
