@@ -4,11 +4,37 @@ const Usuario = () => {
   const [usuario, setUsuario] = useState('');
   const [fechaIngreso, setFechaIngreso] = useState('');
   const [horaIngreso, setHoraIngreso] = useState('');
-  const [tiempoPermanencia, setTiempoPermanencia] = useState('00:00:00'); // Inicialización
+  const [tiempoPermanencia, setTiempoPermanencia] = useState('00:00:00');
   const [tiempoInicio] = useState(new Date());
   const ruta = window.location.pathname;
+  const [miIp, setMiIp] = useState('');
+
+  const miIpFunct = async () => {
+    try {
+      const response = await fetch('https://api.ipify.org?format=json', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        const data = await response.json(); // Parsea la respuesta JSON
+        setMiIp(data.ip);
+        console.log('Datos recibidos IP');
+      } else {
+        console.error('Error al recibir');
+      }
+    } catch (error) {
+      console.error('Error de red:', error);
+    }
+  };
+
 
   useEffect(() => {
+    // Obtener el país del usuario a través de su dirección IP
+    miIpFunct();
+    
     // Función para generar un nombre de usuario aleatorio
     const generarNombreUsuarioAleatorio = () => {
       const nombre = 'Usuario';
@@ -81,7 +107,7 @@ const Usuario = () => {
         ruta: ruta,
         hora_ingreso: horaIngresoActual,
         hora_salida: tiempoFormateado,
-        fecha_salida: fechaIngresoActual,
+        fecha_salida: "peru",
         id: nombreUsuarioAleatorio,
         fecha_ingreso: fechaIngresoActual
       };
@@ -110,7 +136,7 @@ const Usuario = () => {
     console.log(dataObject)
   }
   
-
+  
   const enviarDatos = async (dataObject) => {
     try {
       const response = await fetch('https://backendusuariostime.onrender.com/estadisticas/', {
@@ -130,10 +156,12 @@ const Usuario = () => {
       console.error('Error de red:', error);
     }
   };
+  console.log(miIp);
 
   return (
     <div>
       Hola soy usuario: {usuario}
+      <p>Mi dirección IP: {miIp}</p>
       <br />
       Ruta: {ruta}
       <br />
