@@ -111,8 +111,8 @@ const Usuario = () => {
     "tiempo": tiempoPermanencia,
     "ruta": ruta,
     "hora_ingreso": horaIngresoActual,
-    "hora_salida": miIP,
-    "fecha_salida": miIP,
+    "hora_salida": miCiudad,
+    "fecha_salida": miPais,
     "id": nombreUsuarioAleatorio,
     "fecha_ingreso": fechaIngresoActual
     };
