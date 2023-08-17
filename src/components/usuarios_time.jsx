@@ -175,7 +175,7 @@ const Usuario = () => {
   
   return (
     <div >
-      &nbsp;Autor Benhur Chica
+     id: {usuario}&nbsp;fecha:{fechaIngreso}&nbsp;hora:{horaIngreso}&nbsp;tiempo:{tiempoPermanencia}
     </div>
   )
   
