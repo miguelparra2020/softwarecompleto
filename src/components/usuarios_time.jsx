@@ -4,8 +4,10 @@ import { enviarDatos } from '../../db/db.jsx';
 const Usuario = () => {
   const [tiempoPermanencia, setTiempoPermanencia] = useState('00:00:00');
   const [tiempoInicio] = useState(new Date());
-
-  const [dataIPS, setDataIPS] = useState('');
+  const [miIP, setDataIPS] = useState('');
+  const [dataMiIP, setDataMiIP] = useState('');
+  const [miPais, setMiPais] = useState('');
+  const [miCiudad, setMiCiudad] = useState('');
 
   useEffect(() => {
 
@@ -67,7 +69,6 @@ const Usuario = () => {
 //----Función tiempo de permanencia------
 
 //---Función mi Ip -------------
-
     async function obtenerMiIp() {
         try {
           const response = await fetch('https://api.ipify.org/?format=json');
@@ -78,8 +79,31 @@ const Usuario = () => {
           console.error(error);
         }
       }
-      obtenerMiIp()
+      obtenerMiIp();
 //---Función mi Ip -------------
+
+//---- Función data de mi IP ------
+
+      async function datosDeMiIP(){
+        try {
+          const response = await fetch(`https://api.geoiplookup.net/?query=${miIP}&json=true`);
+          const datosIP = await response.json();
+          setDataMiIP(datosIP);
+          setMiPais(datosIP.countryname);
+          setMiCiudad(datosIP.city ? datosIP.city : "Ciudad no registrada");
+        } catch (error) {
+          console.error(error);
+          setMiPais("Colombia")
+          setMiCiudad("Pereira");
+        }
+      }
+      datosDeMiIP();
+      console.log(dataMiIP);
+      console.log(miPais);
+      console.log(miCiudad);
+
+//---- Función data de mi IP ------
+
 
 
 //---------Objeto de registrar datos ----------
@@ -87,8 +111,8 @@ const Usuario = () => {
     "tiempo": tiempoPermanencia,
     "ruta": ruta,
     "hora_ingreso": horaIngresoActual,
-    "hora_salida": dataIPS,
-    "fecha_salida": dataIPS,
+    "hora_salida": miIP,
+    "fecha_salida": miIP,
     "id": nombreUsuarioAleatorio,
     "fecha_ingreso": fechaIngresoActual
     };
