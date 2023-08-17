@@ -23,7 +23,7 @@ const Usuario = () => {
 
   async function obtenerDataMiIp() {
     try {
-      const response = await fetch(`https://ip-api.com/json/${miIp}`);
+      const response = await fetch(`http://ip-api.com/json/${miIp}`);
       const data = await response.json();
       setDataMiIp(data);
     } catch (error) {
