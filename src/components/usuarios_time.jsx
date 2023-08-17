@@ -31,7 +31,7 @@ const Usuario = () => {
     }
   }
   
-  console.log(usuario,fechaIngreso,horaIngreso,tiempoPermanencia);
+  
 
   useEffect(() => {
     obtenerMiIp();
@@ -164,6 +164,17 @@ const Usuario = () => {
       console.error('Error de red:', error);
     }
   };
+
+
+
+  const divStyle = {
+    color: '#ffffff',
+  };
+  return (
+    <div style={divStyle}>
+     id: {usuario}&nbsp;fecha:{fechaIngreso}&nbsp;hora:{horaIngreso}&nbsp;tiempo:{tiempoPermanencia}
+    </div>
+  )
   
 };
 
