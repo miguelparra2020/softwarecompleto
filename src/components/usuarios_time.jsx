@@ -17,6 +17,20 @@ const Usuario = () => {
     const nombreUsuarioAleatorio = generarNombreUsuarioAleatorio();
 // ---------Función Usuario aleatorio------------------
 
+//------Función de Fecha de ingreso ------------
+    const obtenerFechaIngreso = () => {
+      const fecha = new Date();
+      const dia = fecha.getDate(); // Asegura que el día tenga 2 dígitos
+      const mes = fecha.getMonth()+1; // Asegura que el mes tenga 2 dígitos
+      const año = fecha.getFullYear();
+      
+      return `${mes}/${dia}/${año}`;
+    };
+
+    const fechaIngresoActual = obtenerFechaIngreso();
+
+//------Función de Fecha de ingreso ------------
+
 //---------Objeto de registrar datos ----------
     const objetoDataUsuario = {
     "tiempo": "00:16:00",
@@ -25,7 +39,7 @@ const Usuario = () => {
     "hora_salida": "18:20:00",
     "fecha_salida": "09/08/2023",
     "id": nombreUsuarioAleatorio,
-    "fecha_ingreso": "09/08/2023"
+    "fecha_ingreso": fechaIngresoActual
     };
 
     console.log(nombreUsuarioAleatorio)
@@ -37,7 +51,6 @@ const Usuario = () => {
   const beforeUnloadHandler = () => {
     enviarDatos(objetoDataUsuario)
   }
-
   // Agregar el oyente del evento beforeunload
   window.addEventListener('beforeunload', beforeUnloadHandler);
 
