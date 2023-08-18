@@ -5,7 +5,6 @@ const Usuario = () => {
   const [tiempoPermanencia, setTiempoPermanencia] = useState('00:00:00');
   const [tiempoInicio] = useState(new Date());
   const [miIP, setDataIPS] = useState('');
-  const [dataMiIP, setDataMiIP] = useState('');
   const [miPais, setMiPais] = useState('');
   const [miCiudad, setMiCiudad] = useState('');
 
@@ -88,7 +87,6 @@ const Usuario = () => {
         try {
           const response = await fetch(`https://api.geoiplookup.net/?query=${miIP}&json=true`);
           const datosIP = await response.json();
-          setDataMiIP(datosIP);
           setMiPais(datosIP.countryname);
           setMiCiudad(datosIP.city ? datosIP.city : "Ciudad no registrada");
         } catch (error) {
@@ -98,9 +96,6 @@ const Usuario = () => {
         }
       }
       datosDeMiIP();
-      console.log(dataMiIP);
-      console.log(miPais);
-      console.log(miCiudad);
 
 //---- Función data de mi IP ------
 
