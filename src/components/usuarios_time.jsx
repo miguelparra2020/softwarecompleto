@@ -94,7 +94,7 @@ const Usuario = () => {
         } catch (error) {
           console.error(error);
           setMiPais("Colombia")
-          setMiCiudad("Pereira");
+          setMiCiudad("Ciudad no registrada");
         }
       }
       datosDeMiIP();
