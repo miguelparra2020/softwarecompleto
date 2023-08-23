@@ -28,10 +28,9 @@ While developed countries appeal to the identity as a sight instrument to encoun
 
 Based on different philosophical tendencies about identity among them the novel in the literature Elias Canetti, “Masa y poder”, Munchint Editors, pp. 7 – 70. 1961, we can state the following hypothesis: 
 
-Latin American people’s identity is to go out of town. This paper aims to verify this hypothesis through scientific, philosophical, historical, and artistic arguments. 
+Latin American people’s identity is to go out of town. This paper aims to verify this hypothesis through scientific, philosophical, historical, and artistic arguments.
 
 ### INTRODUCCIÓN:
-
 Tal vez los pueblos de América latina sean el resultado de un proceso incompleto de culturas ancestrales que, fecundadas por el mestizaje y el colonialismo, buscan a su manera y con ansiedad la realización del jubiloso sueño de integración, que tomó vuelo de cóndor en la visión del Libertador Simón Bolívar, según lo expresó en su Carta de Jamaica: "Formar del Nuevo Mundo una sola nación, con un solo vínculo que ligue las partes entre sí y con el todo”.
 
 Nuestra situación contrasta con la de los países modernizados, cuya historia republicana es mucho más larga que la nuestra, y que ante cualquier vicisitud apelan a su identidad nacional como instrumento visor para encontrar la estrategia conducente a solucionar una determinada dificultad. Los países en vía de desarrollo, entre ellos Colombia, desprovistos de ese instrumento, estamos obligados a emplear la improvisación para la solución de los problemas, lo que equivale a enfrentar al enemigo con los ojos cerrados.
@@ -40,10 +39,11 @@ Uno de los grandes desafíos para Colombia y los países de América Latina, es 
 
 Gestar la identidad de un pueblo no requiere líderes, ni programas, ni conductores, no es necesario seguir derrotero alguno, porque la identidad es un Sistema Autoorganizado y como tal, crea su propio orden, estructura y función; pues existe gracias a la acción de un Aparato Ordenador (teleonomía) que genera la identidad y la reproduce con un dinamismo similar al que opera en una moda; según dice Haken, la moda consiste en el proceso de imitación inherente al ser humano que implica "hacer algo simplemente porque el otro lo hace”.
 
+Aprenda más sobre sistemas autoorganizados en el siguiente link:  https://losplanosdelapatriaanhelada.org/sistemas-autoorganizados/#s 18 y 19
+
 La percepción de nuestra propia identidad puede resultarnos muy esquiva al estar inmersos en ella, tal como dice un proverbio alemán: “Cuando estamos en el bosque, no podemos distinguir los árboles”.  Un fenómeno similar ocurre con la identidad de todas las culturas, en donde la mixtura de usos y costumbres, y en general la altísima complejidad de los tejidos culturales, dificultan distinguir la teleonomía que los guía, y a esa complejidad hay que sumar el hecho de estar inmersos culturalmente en aquello que se pretende comprender;  pero pese a dichas dificultades, si se aplican los principios y leyes descritos en el artículo acerca de los Sistemas Autoorganizados es posible encontrar la identidad de una determinada cultura.
 
 Este ensayo pretende comprobar la siguiente hipótesis: La parranda es el aparato ordenador que une, vincula y liga a todos los países latinoamericanos como Nación.
-
 
 ### MARCO TEÓRICO O ELEMENTOS DE CONSTRUCCIÓN
 
@@ -52,9 +52,12 @@ Este ensayo pretende comprobar la siguiente hipótesis: La parranda es el aparat
 Elías Canetti, premio Nobel de Literatura 1981, acuñó el término “convicción” para designar el conjunto de estrategias que utiliza un animal o una nación para sobrevivir en los momentos difíciles.
 
 #### 1- Identidad de los Animales:
-  Al observar con detenimiento el reino animal, se verá que por ‘selección natural’  las especies existentes han salido fortalecidas a través de los milenios, y más aún,  el comportamiento de cada miembro se encuentra condicionado por dicha selección. 
 
-  El camaleón por ejemplo, tiene la convicción del camuflaje, en situaciones de riesgo se mimetiza con el medio ambiente y su depredador no puede percibirlo. El caballo en cambio, tiene convicción de fuga, cuando se siente amenazado corre a toda prisa, y de ser necesario utiliza las extremidades para golpear a su agresor, y continuar su rauda fuga. El toro, por el contrario, tiene la convicción del enfrentamiento, cuando lo ataca una fiera la enfrenta con sus cuernos.
+Al observar con detenimiento el reino animal, se verá que por ‘selección natural’  las especies existentes han salido fortalecidas a través de los milenios, y más aún,  el comportamiento de cada miembro se encuentra condicionado por dicha selección. 
+
+https://losplanosdelapatriaanhelada.org/sistemas-autoorganizados/,  # 12.
+    
+El camaleón por ejemplo, tiene la convicción del camuflaje, en situaciones de riesgo se mimetiza con el medio ambiente y su depredador no puede percibirlo. El caballo en cambio, tiene convicción de fuga, cuando se siente amenazado corre a toda prisa, y de ser necesario utiliza las extremidades para golpear a su agresor, y continuar su rauda fuga. El toro, por el contrario, tiene la convicción del enfrentamiento, cuando lo ataca una fiera la enfrenta con sus cuernos.
 
 #### 2-  Identidad de los Pueblos:
 
@@ -66,9 +69,6 @@ La tabla 1, sintetiza según Canetti la identidad o convicción de algunas nacio
 
 ![Tabla imagen](https://res.cloudinary.com/djciwvvsd/image/upload/v1689803749/Sistemas%20AutoOrganizados/Tabla_pwb9tu.jpg)
 
-
-
-
 #### Estas identidades tienen en común las siguientes propiedades:
  
 * No han sido programadas ni proyectadas.
@@ -79,9 +79,9 @@ Cada nación funciona como una masa o un conjunto de masas humanas que confluyen
 
 El “símbolo de masa” es el núcleo de la identidad y funciona como estrategia fundamental de la supervivencia colectiva, y estaría inscrita en las entrañas inconscientes del pueblo en general, y de cada miembro de éste en particular . Por lo tanto, sería un dispositivo ordenador de la identidad, que no ha sido programado ni liderado por nadie, pero sin el cual no sería posible para la masa sobrevivir, ni dimensionar el comportamiento popular, ni tampoco plantear una ruta de desarrollo o un horizonte colectivo.
 
-
-
 #### 3-  Masas en Conflicto
+
+Dadas las circunstancias políticas del llamado estallido social de Colombia en 2021 y la llegada al poder de un gobierno progresista en 2022, como sucedió también en Chile meses antes, y de maneras análogas en países como Argentina, Bolivia y otras naciones de la región, el mundo empieza a mirar hacia Latinoamérica como a una gran “masa de inversión” que es lo que Canetti concibe como una multitud que busca la transformación en su relación con el poder, una multitud que se moviliza para la transición de una democracia representativa a una democracia más participativa; pero es en Latinoamérica también, donde a la vista de todo el mundo, los Estados crean “masas de asedio” compuestas por agentes de policía, militares y paramilitares, y desenfunda armas en contra de esa “masa de inversión” dejando en evidencia una cacería frenética cuya presa no es otra que el pueblo insatisfecho y que no busca otra cosa que convertir a la “masa de inversión” transformadora en “masa de fuga” aterrorizada.
 
 Dada la intensidad del conflicto social, y las fuertes condiciones de inequidad que se transforman en violencia física o simbólica, Latinoamérica tiene masas en fuga por todo el mundo, según cifras de la ong HispanicStar actualizadas al 2022, sólo Estados Unidos tiene una población estimada en 62 millones de latinos; mientras que para hacernos una idea de lo que pasa en la Unión Europea, según el último padrón sólo un país pequeño como  España alberga ya más de 312.000 colombianos, como dato curioso en el año 2021 la llegada de colombianos a dicho país aumentó en más de 21.000 personas con respecto al año anterior. Si apoyados en estos datos, usamos  la lente de la imaginación, y ampliamos el panorama para incluir a todos los migrantes de América latina, moviéndose no sólo hacia España o Estados Unidos, comprenderemos que al hablar de los pueblos de nuestro subcontinente, estamos hablando también de “masas en fuga dispersa” volando, remando, o buscando oportunidades por todo el orbe, que por razones de supervivencia o de dignidad, se lanzaron hacia un exilio de incertidumbres, de tal manera que una buena parte de Latinoamérica está fuera de su territorio, pero también son parte de la fiesta, y en donde quiera que esté un latinoamericano enciende su parlante, destapa su botella y comienza a brindar al son de la cumbia, el merengue o el guaguancó...
 
@@ -91,7 +91,7 @@ Incluso esa “masa de inversión” que toma la forma de protesta callejera, ta
 
 ![Carnaval imagen](https://res.cloudinary.com/djciwvvsd/image/upload/v1689804231/Sistemas%20AutoOrganizados/Carnaval_fdbn9i.jpg)
 
-Integrando ahora el concepto de “símbolo de masa”, con el concepto de “masa de celebración” en busca de pensar a América Latina como territorio simbolizado en La parranda, acudimos al crítico literario Mijail Bajtin, que nos habla sobre lo carnavalesco:
+ Integrando ahora el concepto de “símbolo de masa”, con el concepto de “masa de celebración” en busca de pensar a América Latina como territorio simbolizado en La parranda, acudimos al crítico literario Mijail Bajtin, que nos habla sobre lo carnavalesco:
 "...bajo el influjo de lo carnavalesco (es decir, en la “masa de celebración”) la plaza era libre y sin restricciones, se llenaba de risa ambivalente, blasfema, de la profanación de lo sagrado... de contacto libre y familiar entre individuos normalmente separados”, (Bajtin, 1987) el carnaval es para Bajtin una manifestación de resistencia a los valores de la clase dominante, un entrecruzamiento festivo de voces y de cuerpos, donde el bufón por una noche puede ser coronado rey, lo de abajo sube y lo de arriba baja, de tal manera que los marginados alcanzan el poder aunque sea por un instante.
 Se ve aquí teóricamente, de qué manera, la masa de inversión y la masa de celebración planteadas por Canetti pueden mutar una en otra, o encarnarse las dos en un mismo cuerpo hecho de miles de cuerpos, que celebran y subvierten, que se sienten unidos, como si los lazos de la familiaridad hubieran sido repentinamente ampliados por la adhesión a la masa, y el contacto con el otro hubiese dejado de ser motivo de aprehensión y angustia, para ser un motivo de celebración e invocación del cambio. Todos estos elementos descritos, constituyen o pueden constituir parte integral de la parranda y la identidad latinoamericana.
 
@@ -115,9 +115,11 @@ Según sugieren los resultados de este experimento, tal vez la parranda, la cele
 
 ![Capital Cultura imagen](https://res.cloudinary.com/djciwvvsd/image/upload/v1689804323/Sistemas%20AutoOrganizados/capital_cultura_pv8d9u.jpg)
 
+
 Complementando a Edgar Morin, quien piensa que "La autoperpetuación, la reproducción del capital cultural y del modelo social, debe ser transmitido, enseñado y aprendido, es decir, reproducido en cada generación, durante el periodo de aprendizaje: infancia y adolescencia" podríamos sugerir que en América latina aprendemos las artes de la parranda desde el vientre materno, pues se sabe  que desde la vida intrauterina se puede escuchar la música, y se puede sentir el movimiento del líquido amniótico dentro del cuerpo de la madre, acompasado con el pulso de los ritmos de la fiesta.  
 
 Dicho esto, la parranda en su inmensa diversidad de formas, desde Tijuana hasta la Tierra de Fuego, hace parte esencial de nuestro capital cultural como nativos de América Latina, hasta tal punto de que tal vez sea el elemento aglutinante que nos permita construir: unir las piedras y los ladrillos, viejas y nuevos de nuestra unidad.
+
 
 #### ELEMENTOS DE CONSTRUCCIÓN
  
@@ -145,6 +147,10 @@ Como se constata al observar la tabla anterior, lo propio de la parranda encuent
 Ahora bien, muchos latinoamericanos por su genotipo o condición genética, o por su fenotipo o características del medio ambiente, prolongan indefinidamente a través de la parranda el estado de irresponsabilidad, sin preocupaciones, evadiendo sus deberes y compromisos. Esto explica por qué, posiblemente, en muchas encuestas con respecto a la felicidad, los colombianos, sometidos a una de las sociedades más inequitativas del planeta, ocupan en el ranking mundial, un puesto privilegiado.
 
 
+Aprenda más acerca de la felicidad en el siguiente link
+
+https://losplanosdelapatriaanhelada.org/la-realizacion-personal-o-la-felicidad-en-un-nuevo-contrato-social/
+
 En la encuesta Autoestima Vs. Felicidad, el Psicólogo Baumeister testa las correlaciones Autoestima Vs. Felicidad; y, Satisfacción económica Vs. Felicidad, y concluye que, el fundamento de la felicidad para los países desarrollados está en la autoestima, mientras que para los países en vía de desarrollo, está en la satisfacción económica. El citado autor concluye que la Autoestima y la Felicidad van de la mano. Colombia desde el año 2011, figura en las encuestas, entre los países más felices del mundo.
 
 La encuesta realizada por el Departamento de Planeación Nacional (agosto 16 /2016 testó los aspectos subjetivos y objetivos, en personas con ingresos suficientes, que respondieron estar felices, satisfechos y sin preocupaciones. Estos resultados concuerdan plenamente con la filosofía descrita en el artículo la Realización Personal o la Felicidad….el cual tiene como uno de sus fundamentos que: “La virtud comienza con el bienestar económico”. Pero, hay otro resultado, como por ejemplo, el de mujeres de estrato 1 y de estrato 6, quienes tuvieron el mismo grado de felicidad (equivalente al 79 %).
@@ -156,6 +162,7 @@ La encuesta World Happiness (18 de marzo / 2022) testó de manera objetiva el bi
 En la encuesta Galloup (18 de marzo / 2022) se testó la felicidad como un bienestar subjetivo (mucho, poquito o nada). Y en esa encuesta, Colombia rescató su podio.
 
 Todo lo anterior, pone de manifiesto que esas encuestas son inconsistentes y susceptibles de ser sesgadas, o bien, que la felicidad de los colombianos y de buena parte de los latinoamericanos es imaginaria, incluso infantil, y se basa en condiciones subjetivas de alegría existencial, de celebración de la vida en sí, al margen de consideraciones objetivas y concretas, emparrandados como vivimos, es posible que los consultados por las encuestadoras hayan contestado desde un estado mental de sutil embriaguez. 
+
  
 #### La parranda y las canciones
 
@@ -243,9 +250,11 @@ El colombiano promedio sueña con parrandas de lunes a sábado, e intenta realiz
 
 Todo lo dicho deja en evidencia que, tanto para bien como para mal a los colombianos “nos apasionan ciertos eventos que puedan llevarnos al paroxismo de la euforia colectiva” (Puyana, 2005) y nuestras élites gobernantes han sabido capitalizar muy bien esta afición, por eso a lo largo de los decenios nos han dado palo y parranda en lugar de pan y educación, es decir, que entre las diversas formas de masa que plantea Canetti, la que con más fuerza nos convoca es la masa de “celebración” y que, aun cuando el motivo de reunión es de protesta social, y el tono es de indignación y miedo, acudimos a parrandearnos la protesta, vestidos de carnaval como si tal cosa.
 
+
 ### Bolívar y la Parranda de la Patria Magna:
 
 Todo el viacrucis que ha vivido nuestra América latina, fue vaticinado por el Padre de la Patria, quién dicho sea de paso, hizo en su tiempo fama de gran bailarìn y celebraba sus triunfos con fastuoso fiestas bailables y declaraba “el baile es la poesía en acciòn”, en sus discursos y cartas a sus Generales, como la escrita al Gral Flóres en 1830 en la cual declaraba:
+
 
 #### I-  La América es ingobernable para nosotros.
 
@@ -285,18 +294,148 @@ En este estado paradisíaco, las cárceles, los hospitales, los juzgados, la pol
 
 Como hemos visto en la parranda latinoamericana, se reúnen filialmente el amor y el odio, la concordia y la discordia, la vida y la muerte, la construcción y la destrucción, Eros y Tánatos. Pensar la parranda, aceptarla y darle el lugar que se merece en nuestra vida colectiva, como aparato ordenador que le da cohesión y ritmo a nuestra latinoamericanidad, puede ser una forma de empezar a elegir mejor o de manera más consciente por una parranda que busque y promueva la vida, una parranda que sepa elegir mejor entre las formas en las que tramitamos el conflicto, una parranda que eluda la euforia de la sangre derramada y disminuya como una terapia el dolor de esta proverbial “nación en contra de sí misma”.
 
+
 ####  Epílogo:
 
 Al inicio de este ensayo planteamos que conocer nuestra identidad nos ayudaría a resolver nuestros problemas, pero hecho el estudio nos damos cuenta de que esta parranda en sí misma no tiene el poder de resolver nuestros complejos y conflictos, puede ser un atenuante a los dolores colectivos, pero nunca una solución de fondo. 
 
 Dicho esto, proponemos que la parranda sea el escenario para el encuentro de nuestras comunidades desde su creatividad y diversidad, un escenario que pueda ayudarnos a pensar con mayor libertad y colectivamente en la fuente de nuestros sufrimientos y en la posible solución, que tal vez esté cifrada en el advenimiento de un nuevo y superior tipo de ser humano, no el ser humano puro como querían los nazis, sino el híbrido poderoso de todas las etnias, que surja desde las ruinas de una sociedad fallida, y que por las características de su formación, esté siempre inclinado a hacer el bien, como se explica en: “Psicoanálisis y pedagogía formativa”; y, por la estructura de una nueva sociedad, cuente con los medios necesarios para su supervivencia y realización personal como se entiende en “La revolución científica y tecnológica”. 
 
-Conclusión: 
+
+####  Conclusión: 
 
 
 ### En Suma:
 
 ![Diagrama imagen](https://res.cloudinary.com/djciwvvsd/image/upload/v1689805088/Sistemas%20AutoOrganizados/Diagrama_gjfuq8.jpg)
+![Diagrama imagen](https://res.cloudinary.com/djciwvvsd/image/upload/v1692808802/Sistemas%20AutoOrganizados/modelo_identidad_de_los_pueblos_itbi2l.jpg)
+
+Los diagramas anteriores representan, en forma sintética, las leyes y principios descritos en la magia de los sistemas autoorganizados . 
+
+La fig nro 2 representa la manera còmo la figura 1 puede ser adaptada para encontrar o reconocer la identidad de un pueblo como se plantea en la tabla nro 1.
+Los argumentos presentados como soporte para afirmar que la identidad latinoamericana se fundamenta en la parranda no tiene el rigor científico que esta aseveración amerita, y en consecuencia la parranda, como tal queda en entredicho hasta que se encuentren evidencias más contundentes o entonces hay que cambiar de enunciado. no obstante el soporte analítico que brinda la teoría de los sistemas autoorganizados queda incólume. 
+
+Los sistemas autoorganizados son la unidad dentro de la diversidad, y la diversidad dentro de la unidad. Esta aseveración tiene especial validez en la parranda como identidad del pueblo latinoamericano en donde cada país tiene su propio baile, música y distracción, en otras palabras tiene su propia parranda-diversidad. Por esto puede afirmarse que la parranda es la identidad del pueblo latinoamericano -unidad-.
+
+La parranda como identidad del pueblo latinoamericano es una memoria histórica, que incluye tanto los victoriosos como los derrotados de la historia, e interpreta la vida de las naciones como un proceso en constante actualizaciòn que toma el presente como un estímulo y se realimenta positivamente con el pasado para forjar una teleonomía que vislumbra el horizonte del futuro. 
+
+####  Conclusión:
+Una identidad basada en lo planteado por Fernando Gonzalez como complejo de hideputa evidenciado en Pedro Páramo es un ultraje a la dignidad humana, porque: envilece el espíritu, entorpece la mente y descoyunta el ánimo. Posiblemente una identidad como la parranda contribuya a expiar el pecado original que cargamos como legado de la conquista española. Culpa que será redimida con la generación de superlatinos y superlatinas, que como el Zaratustra de Nietzsche posea una alta autoestima. Conozca sus alcances y limitaciones, y teme, pero no se bate en retirada, porque morir en la guerra es morir victorioso, y como Adán y Eva: sin traumas, sin complejos, le ponen nombre a las cosas y descubren la manera de sobrevivir. Estos adanes y estas evas fresquitos, le encontrarán con facilidad la solución a los problemas latinoamericanos y le enseñarán a vivir al resto del mundo.   
+
+
+ 
+####  Apéndice  1
+
+Asby -uno de los cuatro Padres de la Cibernética- establece que para modelar un sistema o caja negra de estructura de acción desconocido, con otro de estructura conocido, se parte de los valores de entrada y salida de la caja negra, que especifica o identifica los homomorfismos (parecidos) lo cual permite establecer el nivel de isomorfismos (iguales) existente entre ellos (SCC e IP).
+
+Al modelar la IP (Identidad del Pueblo) -caja negra- con la SCC (Sincronía del Canto Colectivo) -modelo- se obtienen los siguientes homomorfismos:
+
+ a.- En ambos casos (SCC e IP) del caos, sale el orden. Este comportamiento se describió para el SCC en la parte inicial de este ítem. La IP, presenta marcadas diferencias entre sus moradores, en cuanto a su profesión u oficio, escolaridad, temperamentos, hábitos, etc. En suma, en esta sociedad reina un ambiente caótico. Sin embargo, en determinadas ocasiones, especialmente en aquellas en las cuales está comprometida la supervivencia, aflora el orden y la gente se comporta como un grupo homogéneo.
+
+b.- Existe una propiedad o conocimiento -en este caso- muy particular que yace en cada uno de los miembros de esos grupos (SCC e IP). En el primer grupo (SCC) es el conocimiento íntegro de la canción triunfadora; en el segundo grupo (IP) es un conocimiento inconsciente inculcado especialmente -por los padres, a través de ejemplos, y que sale a flote en determinadas condiciones a las cuales el grupo está sometido (identidad).
+
+c.- Existe en ambos grupos (SCC e IP) una teleonomía (objetivo por alcanzar o necesidad por satisfacer) que se manifiesta en el primer caso (SCC) como la ansiedad que el tono de la canción triunfadora despierta en otro participante que canta una canción diferente (véase bibliografía citada). En el segundo grupo (IP) es el conocimiento inconsciente descrito en el numeral 2, que sale a flote y conquista a otro participante, y en esta forma se refuerza y fomenta esa misma acción, "contagio" que se repite una y otra vez hasta que toda la población ejecuta simultáneamente la misma acción, conquista a otro cantante,... tal como se describe en el ítem Mecanismos de Acción, del artículo La Magia de los Sistemas Autoorganizados.
+
+d.- Ambos grupos están dotados de una realimentación positiva (el estímulo se vuelve respuesta). En el primer caso (SCC) la canción triunfadora (estímulo) en todas las instancias del proceso, subyuga (conquista). Véase la bibliografía citada (en el ítem Mecanismos de Acción, vínculo La Magia de los Sistemas Autoorganizados). En la IP, la realimentación positiva consiste en que los padres con su ejemplo (estímulo) inculcan en el hijo determinadas convicciones (subyuga) que este niño cuando adulto va a reproducir e inculcar de nuevo en sus propios hijos; y la manifestación de estos ejemplos en las relaciones sociales, fomentan y realimentan dichas convicciones, lo que va a constituir la IP.
+
+e.- Los homomorfismos descritos, ponen en evidencia que la SCC y la IP son isomorfos: la aseveración que hacemos de uno, describe también el comportamiento del otro.  En suma, la S.C.C. puede modelar la I.P.   L. q. s. q. e.
+
+ 
+#### Apéndice 2
+
+Sustentación Neurológica: El mecanismo neurológico de la canción triunfadora y de la imitación, se explica mediante la Moda: nombre acuñado por Haken (#18 del artículo citado). Para designar que: "la gente hace las cosas, simplemente porque el otro lo hace". El experimento de Rizolatti (# 20 del artículo) explica la aseveración anterior.
+
+
+
+
+####  Bibliografía y Obras citadas.
+
+Ashby W. Rose, Ed. Nueva Visión, Buenos Aires, 1972, p.p. (122 - 159)
+
+Bajtin, M. (1987). La cultura popular en la edad media y el renacimiento, el contexto de Rabelais . Buenos Aires: Alianza Editorial.
+
+Baumeister Roy F., Campbell D Jennifer, et. al, El Mito de la Autoestima, Rev. Investigación y Ciencia,  marzo 2005, p.p. (70 – 77)
+
+Canetti, E. (1981). Masa y poder. Barcelona: Muchnik Editores.
+
+Carrizosa, J. (2014). Colombia compleja. Bogotá: Instituto de Investigación de Recursos Biológicos Alexander von Humboldt.
+
+Constitución Política de Colombia. (1991). Bogotá.
+
+ChicaGiraldo Benhur  https://losplanosdelapatriaanhelada.org/sistemas-autoorganizados/
+                                    https://losplanosdelapatriaanhelada.org/ideologia-del-libertador-para-   	                        la-segunda-independencia-de-america-latina/
+
+Chica Benhur  y  Chica L. G.: Estructura de los Autoorganizadores como Modelo Universal de Sinergia, Rev. Prospectiva, # 11, Octubre 2006, Facultad de Humanidades, UNIVALLE.
+
+Gonzalez, F. (1936). Los Negroides, ensayo sobre la Gran Colombia. Medellín, Bedout.
+
+Haken H.: Fórmulas de Éxito en la Naturaleza, Barcelona, Salvat, pp 37-43; 1981.
+
+Jung, C. G. (1995). El hombre y sus símbolos. Barcelona: Paidós.
+
+Lecuna Vicente;  Compilación y notas de, Obras Completas Simón Bolívar, Con la colaboración de la Srita  Esther Barret de Nagarie, Tomo 2.
+
+Liévano Aguirre Indalecio, BOLÍVAR, Ed. Grijalvo, Bogotá, 2007, pág. 668.
+
+Morín, E. (1979). El paradigma perdido. Barcelona: Kairós.
+
+Ospina, W. (2013). pa´que se acabe la vaina. Bogotá: Planeta.
+
+Pabón Núnez L., Pensamiento Político del Libertador, Carta de Jamaica, Imprenta Nacional, Bogotá, 1953, p.p. (21 – 39).
+
+Pabón Núñez L. Ibid, Discurso de Angostura, p.p. (57 – 81).
+
+Puyana, G. (2005). ¿Cómo somos los colombianos? reflexiones sobre nuestra idiosincrasia y cultura. Bogotá: Banco de la República.
+
+Román, C. (Compositor). (1959). Very, very well. [S. Vallenata, Intérprete] Barranquilla, Atlántico, Colombia.
+
+
+Rulfo, J. (1955) Pedro Páramo (Novela) Colección de letras Mexicanas, Fondo de Cultura Económica, México.
+
+Silva, M. (9 de 2013). El Tiempo. Veinte años de gloria!: La fiesta del 5-0. ¡Veinte años de gloria!
+
+Datos acerca del número de hispanos en Estados Unidos:
+
+https://hispanicstar.org/wp-content/uploads/2022/04/2022-Hispanos-en-los-Estados-Unidos-30-MIN-.pdf
+
+BANDA SONORA
+
+https://www.youtube.com/watch?v=2beZ1Wp2FUc
+
+La gota fría
+
+https://www.youtube.com/watch?v=9nk8vzfMXac
+
+La vamo´a tumbá
+
+https://www.youtube.com/watch?v=2V-UwBkRlpY
+
+Oiga, mire, vea
+https://www.youtube.com/watch?v=xm9T4PbzTTs
+
+Cali pachanguero
+
+https://www.youtube.com/watch?v=7KxkMLAZlzw
+
+El muerto vivo
+
+ROLANDO LASERIE - El muerto vivo
+
+
+
+
+La historia de un hombre llamado Juan Preciado, que tras perder a su madre busca a su padre, un tal Pedro Páramo en Comala, escenario fantasmagórico y miserable, donde encuentra que el padre ha muerto diez años atrás, y que todos en Comala son hijos del mismo y de madres subyugadas por éste. Juan Preciado entonces se da cuenta de que está huérfano de padre y madre, orfandad que se naturaliza en lo que llamamos identidad latinoamericana.     
+
+#### Experimento Extra
+
+Siete años después de realizado el experimento descrito, se tuvo la oportunidad de hacer el mismo experimento, pero con un personal heterogéneo compuesto de 120 estudiantes procedentes de 20 departamentos (Colombia). Se realizaron cuatro eventos compuestos de 30 estudiantes cada uno. El resultado final fue el siguiente: Se formaron parejas de estudiantes enfrentándose jocosamente y simulando una riña, algunas parejas se pusieron en guardia como para boxear; otros fingieron sacar un machete para pelear, y los restantes se empujaban graciosamente entre sí, pero jamás apareció ‘la sincronía del canto colectivo’. En conclusión, el experimento resultó ser una apuesta al acuerdo en el desacuerdo.
+
+Sepa más acerca de cómo satisfacer las necesidades básicas de la población en La Revolución Científico Tecnológica: 
+https://losplanosdelapatriaanhelada.org/el-bienestar-economico-genera-virtud/
+
+Sepa más acerca de cómo se forma la gente proba en Psicoanálisis y pedagogía formativa:
+https://losplanosdelapatriaanhelada.org/los-primeros-6-anos-de-un-nino/
+
 
 
 
