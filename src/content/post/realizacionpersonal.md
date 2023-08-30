@@ -80,3 +80,18 @@ La RP constituye el Aparato Ordenador, porque crea el orden, la estructura y la 
 
 ![Imagen de papa](https://res.cloudinary.com/djciwvvsd/image/upload/v1693427177/Sistemas%20AutoOrganizados/pexels-josh-willink-105952_vyxcqb.jpg)
 
+En el mismo trabajo se pone de manifiesto que: la Igualdad social sin la igualdad económica, es un fantasma; la Libertad sin los medios para ejecutar la opción elegida es una mentira más, y la Justicia está sesgada y manipulada por los detentores del poder. Todos los países cuya constitución y leyes se basan en estos principios (Igualdad, Libertad y Justicia) caen inexorablemente en todo tipo de absurdos y contradicciones: explotación, miseria, abuso, conflictos y guerra.
+
+Para intentar contrarrestar estos desaciertos, se propone un nuevo contrato social basado en una nueva conceptualización de la Igualdad.
+
+**LA IGUALDAD** consistiría en que todos los miembros de una sociedad, tengan –desde su nacimiento- las condiciones necesarias y suficientes para alcanzar su propia RP. Esta igualdad está determinada por los anhelos, vocaciones, aspiraciones,.. de cada quien y por sus aptitudes y habilidades. En último análisis, mediante métodos convencionales, se rescata un derecho natural, el cual puede dar origen a otros de su misma especie.
+
+**LA LIBERTAD** sería una propiedad emergente de la Igualdad, pues quien logra su RP es pleno y quien es pleno sólo pretende o desea hacer lo que está a su alcance. Así lo confirma San Agustín: «Ama y haz lo que se te venga en gana» porque el que ama es pleno y quien es pleno nunca se le ocurre hacerle daño al prójimo, ni violar las leyes naturales.
+
+> **LA JUSTICIA** se tornaría innecesaria en una sociedad en la que predomina la felicidad, esa cualidad es fruto del amor: sincronía mental, espiritual y material con su entorno (ser o seres humanos, naturaleza) sincronía que se metamorfosea en simbiosis y ésta en un sentimiento de plenitud. En una comunidad en la que todos sus miembros son plenos, sobran los códigos y las leyes, los cuales son sustituidos por estatutos e institutos de instrucción, educación y re-educación.
+
+### El Progreso es el incremento de posibilidades.
+
+La característica que estos cinco personajes tienen en común es una alta autoestima que orienta y estimula sus acciones hasta alcanzar el éxito. El éxito es el progreso públicamente reconocido. En su autobiografía, Vivir para Contarla, García Márquez dice que él vendía 1.000 ejemplares de cada una de sus obras antes de ganar el Premio Nobel, pero después de esto, vendía por millones de cada una.
+
+![Imagen de GGM](https://res.cloudinary.com/djciwvvsd/image/upload/v1687044367/Sistemas%20AutoOrganizados/GMarquez_ey0fxn.jpg)
