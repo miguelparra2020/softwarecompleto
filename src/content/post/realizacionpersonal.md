@@ -74,3 +74,9 @@ Autoestima → Realización Personal → Reconocimiento del Otro (respeto por lo
 
 ![Imagen de sistema](https://res.cloudinary.com/djciwvvsd/image/upload/v1685502700/Sistemas%20AutoOrganizados/Diagrama_de_flujo_qg1m3p.jpg)
 
+La RP constituye el Aparato Ordenador, porque crea el orden, la estructura y la función del sistema (B. Chica)*1.
+
+*1B. Chica y L. G. Chica: Estructura de los Auto organizadores como modelo universal de sinergia, Rev. Prospectiva, U. V., Facultad de Humanidades, # 11, Oct. 2006, p.p. (123-136).
+
+![Imagen de papa](https://res.cloudinary.com/djciwvvsd/image/upload/v1693427177/Sistemas%20AutoOrganizados/pexels-josh-willink-105952_vyxcqb.jpg)
+
