@@ -44,3 +44,7 @@ canonical: https://sistemasautoorganizados.com/realizacionpersonal
 
 > Ser feliz es formarse uno mismo una suerte agradable, la cual consiste en las buenas disposiciones del alma, en la práctica del bien, y en el amor a la virtud
 La felicidad como el amor, es la sincronía de una persona con su entorno (persona, sociedad o naturaleza).
+
+Sólo las personas dotadas de una gran autoestima, luchan con denuedo y dignidad para realizar sus ideales y ser alguien en la vida; las de baja autoestima son personas frustradas, no tienen ideales y si los tienen, sienten que no vale la pena luchar por ejecutarlos.  Lo contrario de la RP es la frustración, la irresponsabilidad y la depresión (en caso extremo) ( Véase R. Chica: Psicoanálisis y Pedagogía Formativa).
+
+![Imagen de madre](https://res.cloudinary.com/djciwvvsd/image/upload/v1693426465/Sistemas%20AutoOrganizados/pexels-edward-eyer-1170899_xzhutj.jpg)
