@@ -72,5 +72,5 @@ Autoestima → Realización Personal → Reconocimiento del Otro (respeto por lo
 
 (El símbolo → significa que genera o produce el siguiente elemento).
 
-![Imagen de sistema]([https://res.cloudinary.com/djciwvvsd/image/upload/v1693426465/Sistemas%20AutoOrganizados/pexels-edward-eyer-1170899_xzhutj.jpg](https://res.cloudinary.com/djciwvvsd/image/upload/v1685502700/Sistemas%20AutoOrganizados/Diagrama_de_flujo_qg1m3p.jpg)https://res.cloudinary.com/djciwvvsd/image/upload/v1685502700/Sistemas%20AutoOrganizados/Diagrama_de_flujo_qg1m3p.jpg)
+![Imagen de sistema](https://res.cloudinary.com/djciwvvsd/image/upload/v1685502700/Sistemas%20AutoOrganizados/Diagrama_de_flujo_qg1m3p.jpg)
 
