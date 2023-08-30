@@ -1,9 +1,9 @@
 ---
 publishDate: 2023-05-14T00:00:00Z
 title: La Realización Personal o la Felicidad en un Nuevo Contrato Social.
-description: Podcast Los planos de la paz, resumen del tema.
-excerpt: Te explicamos en formato podcast los componentes necesarios para alcanzar la paz en el país por medio de los sistemas autoorganizados.
-image: ~/assets/images/losplanosdelapazpodcast.png
+description: Sólo las personas dotadas de una gran autoestima, luchan con denuedo y dignidad para realizar sus ideales y ser alguien en la vida; las de baja autoestima son personas frustradas, no tienen ideales y si los tienen, sienten que no vale la pena luchar por ejecutarlos...
+excerpt: Sólo las personas dotadas de una gran autoestima, luchan con denuedo y dignidad para realizar sus ideales y ser alguien en la vida; las de baja autoestima son personas frustradas, no tienen ideales y si los tienen, sienten que no vale la pena luchar por ejecutarlos...
+image: ~/assets/images/realizacionpersonal.png
 category: socio-politicos-economicos
 tags:
   - lectura
