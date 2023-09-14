@@ -1,7 +1,7 @@
 //el envío de datos de El registro de usuarios
 
 export async function enviarDatos(dataObject) {
-    const response = await fetch('https://backendusuariostime.onrender.com/estadisticas/', {
+    const response = await fetch('https://sistemas-backend-analitica-django-mongo.onrender.com/insertar_usuario/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
