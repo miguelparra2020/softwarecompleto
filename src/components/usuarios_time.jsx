@@ -1,5 +1,5 @@
 import {  useEffect, useState } from 'react';
-import { enviarDatos } from '../../db/db.jsx';
+import { enviarDatos, enviarDatosTiempo } from '../../db/db.jsx';
 
 const Usuario = () => {
   //-----Variables y constantes---------
@@ -30,7 +30,7 @@ const Usuario = () => {
 
   const enviarDatosfunctionTiempo = () => {
     console.log("Soy el objeto externo por 3 segundos",objetoDataUsuarioTiempo);
-    enviarDatos(objetoDataUsuarioTiempo);
+    enviarDatosTiempo(objetoDataUsuarioTiempo);
 
   }
 
@@ -167,7 +167,6 @@ const enviarDatosfunctionCambioPagina = () => {
 
    const beforeUnloadHandler = () => {
     enviarDatosfunctionCambioPagina();
-    // enviarDatos(objetoDataUsuario)
   }
   // Agregar el oyente del evento beforeunload
   window.addEventListener('beforeunload', beforeUnloadHandler);
