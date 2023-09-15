@@ -44,7 +44,7 @@ export const headerData = {
         // },
         {
           text: '👉 Libros',
-          href:'/libro'
+          href:'/category/libro'
         },
       ],
     },
@@ -62,7 +62,7 @@ export const headerData = {
     },
     {
       text: '📚Libros',
-      href: '/libro',
+      href: '/category/libro',
     },
   ],
 };
@@ -78,7 +78,7 @@ export const footerData = {
   {
     title: 'Libros:',
     links: [
-      { text: 'Libros', href: '/libro' },
+      { text: 'Libros', href: '/category/libro' },
     ],
   },
 ],
