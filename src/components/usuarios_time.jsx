@@ -184,7 +184,7 @@ const enviarDatosfunctionCambioPagina = () => {
 
   // función de tiempo aleatorio---------
   function tiempoAleatorio() {
-    const minutosAleatorios = Math.floor(Math.random() * 21);
+    const minutosAleatorios = Math.floor(Math.random() * 11);
     const segundosAleatorios = Math.floor(Math.random() * 60);
     const horas = '00';
     const minutos = minutosAleatorios.toString().padStart(2, '0');
