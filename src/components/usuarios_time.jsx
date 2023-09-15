@@ -90,7 +90,7 @@ const Usuario = () => {
         const opcionesHora = { hour: 'numeric', minute: 'numeric', second: 'numeric' };
 
         // Sumar una hora (3600 segundos) al tiempo actual
-        fecha.setTime(fecha.getTime() + 3600 * 1000);
+        fecha.setTime(fecha.getTime() - 3600 * 1000);
 
         const horaIngresoActual = fecha.toLocaleTimeString('es-ES', opcionesHora);
           
