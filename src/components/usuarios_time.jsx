@@ -1,5 +1,5 @@
 import {  useEffect, useState } from 'react';
-import { enviarDatos, enviarDatosTiempo } from '../../db/db.jsx';
+import { enviarDatos,  enviarDatosTiempo} from '../../db/db.jsx';
 
 const Usuario = () => {
   //-----Variables y constantes---------
@@ -82,8 +82,23 @@ const Usuario = () => {
     };
 
     const horaIngresoActual = obtenerHoraIngreso();
-    setHoraIngreso(horaIngresoActual);
+    
 //------Función de hora de ingreso -----------
+
+      const obtenerHoraIngresoTemporal = () => {
+        const fecha = new Date();
+        const opcionesHora = { hour: 'numeric', minute: 'numeric', second: 'numeric' };
+
+        // Sumar una hora (3600 segundos) al tiempo actual
+        fecha.setTime(fecha.getTime() + 3600 * 1000);
+
+        const horaIngresoActual = fecha.toLocaleTimeString('es-ES', opcionesHora);
+          
+        return `${horaIngresoActual}`;
+      };
+
+      const horaIngresoActualTemporal = obtenerHoraIngresoTemporal();
+      setHoraIngreso(horaIngresoActualTemporal);
 
 // Actualización de variable de usuario
     setNombreUsuario(`${nombreUsuarioAleatorio}${fechaIngreso}${horaIngresoActual}`);
