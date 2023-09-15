@@ -14,6 +14,8 @@ const Usuario = () => {
   const [tiempoAleatorio, setTiempoAleatorio] = useState('00:00:00');
   const [tiempoInicio] = useState(new Date());
   const [dispositivo, setDispositivo] = useState('');
+
+
   //-----Variables y constantes---------
   const objetoDataUsuarioTiempo = {
     "usuario": usuario,
@@ -27,15 +29,22 @@ const Usuario = () => {
   };
 
   const enviarDatosfunctionTiempo = () => {
-    console.log("Soy el objeto externo",objetoDataUsuarioTiempo);
-    enviarDatos(objetoDataUsuarioTiempo)
+    console.log("Soy el objeto externo por 3 segundos",objetoDataUsuarioTiempo);
+    enviarDatos(objetoDataUsuarioTiempo);
+
   }
 
   if(tiempo == '00:00:03'){
     enviarDatosfunctionTiempo();
   }
 
+  
+
   useEffect(() => {
+
+    // ----
+    // const [varMiIP, setVarMiIP] = useState('');
+
 
     // ----------Función Usuario aleatorio---------------
     //  Función Usuarios aleatorios:
@@ -78,6 +87,8 @@ const Usuario = () => {
 
 // Actualización de variable de usuario
     setNombreUsuario(`${nombreUsuarioAleatorio}${fechaIngreso}${horaIngresoActual}`);
+
+    // const userName = `${nombreUsuarioAleatorio}${fechaIngreso}${horaIngresoActual}`;
 // Actualización de variable de usuario
   
     //---Función mi Ip -------------
@@ -99,9 +110,9 @@ const Usuario = () => {
         try {
           const response = await fetch(`https://api.geoiplookup.net/?query=${miIP}&json=true`);
           const datosIP = await response.json();
-          console.log(datosIP)
           setMiPais(datosIP.countryname ? datosIP.countryname : "Colombia");
           setMiCiudad(datosIP.city ? datosIP.city : "Ciudad no registrada");
+          // setVarMiIP(datosIP.countryname ? datosIP.countryname : "Colombia");
         } catch (error) {
           console.error(error);
           setMiPais("Colombia")
@@ -128,14 +139,34 @@ const Usuario = () => {
 
         const tiempoFormateado = `${String(horas).padStart(2, '0')}:${String(minutos).padStart(2, '0')}:${String(segundos).padStart(2, '0')}`;
         setTiempoPermanencia(tiempoFormateado);
+        return tiempoFormateado
       }, 1000);
+      console.log("Soy tiempo intervalo:", tiempo);
+
 //----Función tiempo de permanencia------
+
+const objetoDataUsuario = {
+  "usuario": usuario,
+  "fecha_ingreso": fechaIngreso,
+  "pais": miPais,
+  "hora_ingreso": horaIngresoActual,
+  "ciudad": miCiudad,
+  "ruta": ruta,
+  "tiempo": tiempo,
+  "dispositivo": dispositivo
+};
+
+console.log("Soy objeto interno:", objetoDataUsuario)
+
+const enviarDatosfunctionCambioPagina = () => {
+  enviarDatos(objetoDataUsuario);
+}
 
 
    //--------función evento página --------------
 
    const beforeUnloadHandler = () => {
-    alert("Cambio de página")
+    enviarDatosfunctionCambioPagina();
     // enviarDatos(objetoDataUsuario)
   }
   // Agregar el oyente del evento beforeunload
@@ -177,9 +208,8 @@ const Usuario = () => {
       clearInterval(intervaloTiempo);
     };
    //--------Resetear----------------
-  }, []); 
+  }, [tiempo]); 
 
-  
 
 
   return(
