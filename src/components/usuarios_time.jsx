@@ -214,7 +214,7 @@ const enviarDatosfunctionCambioPagina = () => {
 
   return(
     <div>
-      soy usuario: {usuario}
+      {/* soy usuario: {usuario}
       <br />
       Soy fechaIngreso: {fecha_ingreso}
       <br />
@@ -230,7 +230,7 @@ const enviarDatosfunctionCambioPagina = () => {
       <br />
       soy dispositivo: {dispositivo}
       <br />
-      <br />
+      <br /> */}
       {/* <button onClick={}> Enviar </button> */}
       
     </div>
