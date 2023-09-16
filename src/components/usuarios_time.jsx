@@ -1,5 +1,5 @@
 import {  useEffect, useState } from 'react';
-import { enviarDatos,  enviarDatosTiempo} from '../../db/db.jsx';
+// import { enviarDatos,  enviarDatosTiempo} from '../../db/db.jsx';
 
 const Usuario = () => {
   //-----Variables y constantes---------
@@ -30,7 +30,7 @@ const Usuario = () => {
 
   const enviarDatosfunctionTiempo = () => {
     console.log("Soy el objeto externo por 3 segundos",objetoDataUsuarioTiempo);
-    enviarDatosTiempo(objetoDataUsuarioTiempo);
+    // enviarDatosTiempo(objetoDataUsuarioTiempo);
 
   }
 
@@ -174,7 +174,8 @@ const objetoDataUsuario = {
 console.log("Soy objeto interno:", objetoDataUsuario)
 
 const enviarDatosfunctionCambioPagina = () => {
-  enviarDatos(objetoDataUsuario);
+  // enviarDatos(objetoDataUsuario);
+  console.log(objetoDataUsuario);
 }
 
 
